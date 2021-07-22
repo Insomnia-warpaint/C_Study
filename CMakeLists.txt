@@ -5,4 +5,4 @@ set(CMAKE_C_STANDARD 11)
 
 include_directories(.)
 
-add_executable(c-study hello_world.c)
+add_executable(c-study hello_world.c variable.c)

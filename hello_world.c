@@ -1,3 +1,4 @@
+/*
 //
 // Created by insomnia on 2021/7/16.
 //
@@ -9,6 +10,8 @@ void printf_my_name_and_address(void);
 void one_three(void);
 void two(void);
 void three(void);
+void warn(void);
+void char_code(void);
 void the_end(void);
 int main(void) {
 
@@ -16,6 +19,8 @@ int main(void) {
     printf_my_name();
     printf_my_name_and_address();
     one_three();
+    warn();
+    char_code();
     the_end();
     return 0;
 }
@@ -56,8 +61,22 @@ void three(void){
     printf("done!\n");
 }
 
+void warn(void ){
+
+    char warn = '\007';
+    printf("warning %c \n" , warn);
+}
+
+// 键入 char 输出 char 所对应的ASCII码
+void char_code(void){
+    char ch;
+    printf("Please enter a character . \n");
+    scanf("%c",&ch);
+    printf("The code for %c is %d . \n" , ch , ch);
+}
 void the_end(void){
     printf("the end!\n");
 }
+*/
 
 
