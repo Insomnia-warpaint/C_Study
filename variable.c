@@ -2,6 +2,8 @@
 // Created by insomnia on 2021/7/22.
 //
 
+
+/*
 #include "stdio.h"
 
 int main(void){
@@ -13,5 +15,13 @@ int main(void){
     printf("%f  can be written %e \n" , boat, boat);
     printf("%LF can be written %Le \n" , dip, dip);
 
+   // ***********************************result **************************************
+    *//*
+       32000.000000  can be written 3.200000e+04
+       21500000000000000000.000000  can be written 2.150000e+19
+       0.000063 can be written 6.250000e-05
+     *//*
     return 0;
 }
+ */
+

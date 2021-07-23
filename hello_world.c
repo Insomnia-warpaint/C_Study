@@ -1,8 +1,10 @@
 /*
+
 //
 // Created by insomnia on 2021/7/16.
 //
 #include "stdio.h"
+#include "bool.h"
 // function define
 void hello_world(void);
 void printf_my_name(void);
@@ -12,7 +14,7 @@ void two(void);
 void three(void);
 void warn(void);
 void char_code(void);
-void the_end(void);
+int the_end(void);
 int main(void) {
 
     hello_world();
@@ -21,8 +23,33 @@ int main(void) {
     one_three();
     warn();
     char_code();
-    the_end();
-    return 0;
+
+    // ********************result****************************
+    */
+/*
+     hello world
+    this is function body with hello world by C language
+    Wang Peng
+    Wang Peng
+    Wang Peng
+    My name is Warpaint , address in HuBei China!
+    starting now!
+    one
+    two
+    three
+    done!
+    warning 
+    Please enter a character .
+    t
+    The code for t is 116 .
+    the end!
+
+    Process finished with exit code 0
+    *//*
+
+
+
+    return the_end();
 }
 
 void hello_world(void ){
@@ -74,9 +101,11 @@ void char_code(void){
     scanf("%c",&ch);
     printf("The code for %c is %d . \n" , ch , ch);
 }
-void the_end(void){
+int the_end(void){
     printf("the end!\n");
+    return SUCCESS;
 }
-*/
 
+
+*/
 
