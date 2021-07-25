@@ -4,6 +4,6 @@
 
 #ifndef C_STUDY_BOOL_H
 #define C_STUDY_BOOL_H
-int SUCCESS  = 0;
-int FAILED = 1;
+#define SUCCESS  0
+#define FAILED  1
 #endif //C_STUDY_BOOL_H
