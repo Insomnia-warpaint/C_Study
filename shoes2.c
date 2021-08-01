@@ -5,7 +5,7 @@
 #include "bool.h"
 #include "stdio.h"
 #define ADJUST 7.31
-int main(void){
+/*int main(void){
 
     //scale 比例
     const double SCALE = 0.333;
@@ -22,5 +22,5 @@ int main(void){
     printf("If the shoe fits, wear it\n");
     return SUCCESS;
 
-}
+}*/
 
