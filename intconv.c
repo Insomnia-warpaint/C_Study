@@ -16,7 +16,7 @@
   -num as short and unsigned short: -255  65281
   WORDS is int , short ,and char: 65536 0  []
  */
-#include "stdio.h"
+/*#include "stdio.h"
 #include "bool.h"
 #define PAGES 255
 #define WORDS 65536
@@ -29,5 +29,5 @@ int main(void){
     printf("-num as short and unsigned short: %hd  %hu \n" , mnum, mnum);
     printf("WORDS is int , short ,and char: %d %hd %c\n", WORDS, WORDS, WORDS);
     return SUCCESS;
-}
+}*/
 
