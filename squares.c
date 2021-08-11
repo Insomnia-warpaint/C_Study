@@ -1,7 +1,7 @@
 //
 // Created by insomnia on 2021/8/1.
 //
-#include "stdio.h"
+/*#include "stdio.h"
 #include "bool.h"
 #define SQUARES 64
 int main(void){
@@ -25,4 +25,4 @@ int main(void){
 
 
     return SUCCESS;
-}
+}*/
