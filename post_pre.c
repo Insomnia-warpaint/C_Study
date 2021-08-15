@@ -1,6 +1,7 @@
 //
 // Created by insomnia on 2021/8/11.
 //
+/*
 #include "bool.h"
 #include "stdio.h"
 
@@ -14,3 +15,4 @@ int main(void){
     printf("%d        %d       %d     %d", a_post, a, pre_b, b);
     return SUCCESS;
 }
+*/
