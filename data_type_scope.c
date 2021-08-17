@@ -6,7 +6,7 @@
 #include "stdio.h"
 #include "string.h"
 #include "limits.h"
-__attribute__((unused)) sort(long double var1 ,long long var2);
+
 int main (void){
 
     long double a = 1;
