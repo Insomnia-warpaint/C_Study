@@ -1,7 +1,7 @@
 //
 // Created by insomnia on 2021/8/24.
 //
-#include "bool.h"
+/*#include "bool.h"
 #include "stdio.h"
 #define NUMBER 5
 int main(void){
@@ -14,5 +14,5 @@ int main(void){
     }
 
     return SUCCESS;
-}
+}*/
 
