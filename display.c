@@ -2,7 +2,7 @@
 // Created by insomnia on 2021/8/28.
 //
 
-#include "stdio.h"
+/*#include "stdio.h"
 #include "bool.h"
 
 void display(char ch ,int row, int column);
@@ -31,4 +31,4 @@ void display(char ch, int row, int column)
         }
         putchar('\n');
     }
-}
+}*/
