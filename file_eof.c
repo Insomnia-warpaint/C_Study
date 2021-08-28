@@ -2,7 +2,7 @@
 // Created by insomnia on 2021/8/28.
 //
 
-#include "stdio.h"
+/*#include "stdio.h"
 #include "bool.h"
 
 int main(void){
@@ -26,4 +26,4 @@ int main(void){
 
     fclose(file_pointer);
     return SUCCESS;
-}
+}*/
