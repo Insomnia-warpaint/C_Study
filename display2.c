@@ -1,3 +1,4 @@
+/*
 //
 // Created by insomnia on 2021/8/28.
 //
@@ -38,3 +39,4 @@ void display(char ch , int row , int column)
         putchar('\n');
     }
 }
+*/
