@@ -4,6 +4,7 @@
  *  Created on: 2021年11月3日
  *      Author: miga
  */
+#include "../include/platinum.h"
 #include "../include/sorted.h"
 #include "../include/parctice_printf.h"
 #include "../include/func.h"
@@ -17,6 +18,7 @@
 int
 main (void)
 {
+  printf ("第一章: C 语言概述.\n");
   hello_main ();
   pnt_spaces (TWO);
 
@@ -34,6 +36,8 @@ main (void)
 
   sorted_main ();
   pnt_spaces (TWO);
-
+  printf ("第二章: 数据和C.\n");
+  platinum_main ();
+  pnt_spaces (TWO);
   return true;
 }
