@@ -4,6 +4,7 @@
  *  Created on: 2021年11月3日
  *      Author: miga
  */
+#include "../include/conv_inch_to_centimeter.h"
 #include "../include/conv_quart_to_molecule.h"
 #include "../include/conv_age_to_sec.h"
 #include "../include/print_flt.h"
@@ -92,7 +93,10 @@ main (void)
 //  conv_age_main ();
 //  pnt_spaces (TWO);
 
-  conv_quart_to_mlc ();
+//  conv_quart_to_mlc ();
+//  pnt_spaces (TWO);
+
+  conv_inch_to_cm ();
   pnt_spaces (TWO);
   return true;
 }
