@@ -18,3 +18,20 @@
 最小的存储单元是位(bit),可以存储`0`或`1`,
 字节(byte) 是常用的计算机存储单位,对于几乎所有的机器,`1`字节均为`8`位,这是字节的标准定义,
 8位字节有`256`(2的8次方)种`0`,`1`的组合,通过二进制编码,便可表示0～255的整数.
+
+## 其他整数类型
+
+|其他整数类型|
+|:----:|
+|short int|
+|long int|
+|long long int|
+|long long|
+|unsigned int|
+|unsigned long int|
+|unsigned long|
+|unsigned short|
+|unsigned short int|
+|unsigned long long|
+|unsigned long int|
+
