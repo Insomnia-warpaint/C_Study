@@ -22,11 +22,11 @@ pnt_spaces (int number)
 {
   int n = 0;
   int count = number;
-  if (ZERO > number)
+  if (ZERO > count)
     {
       return false;
     }
-  while (n < number)
+  while (n < count)
     {
       printf ("\n");
       ++n;
