@@ -4,6 +4,7 @@
  *  Created on: 2021年11月3日
  *      Author: miga
  */
+#include "../include/print_name.h"
 #include "../include/longstrg.h"
 #include "../include/prntval.h"
 #include "../include/floatcnv.h"
@@ -153,7 +154,13 @@ main (void)
 //  prntval_main ();
 //  pnt_spaces (TWO);
 
-  longstrg_main ();
+//  longstrg_main ();
+//  pnt_spaces (TWO);
+
+//  print_name_main ();
+//  pnt_spaces (TWO);
+
+  print_name_align ();
   pnt_spaces (TWO);
   return true;
 }
