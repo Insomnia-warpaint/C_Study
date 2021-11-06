@@ -4,6 +4,11 @@
  *  Created on: 2021年11月3日
  *      Author: miga
  */
+#include "../include/printout.h"
+#include "../include/defines.h"
+#include "../include/pizza.h"
+#include "../include/praise.h"
+#include "../include/talkback.h"
 #include "../include/conv_inch_to_centimeter.h"
 #include "../include/conv_quart_to_molecule.h"
 #include "../include/conv_age_to_sec.h"
@@ -70,7 +75,7 @@ main (void)
 //  pnt_spaces (TWO);
 
 //  showf_pt_main ();
-//  pnt_spaces (TWO);both ‘unsigned’ and ‘double’ in declaration specifiers
+//  pnt_spaces (TWO);
 
 //  floaterr_main ();
 //  pnt_spaces (TWO);
@@ -96,7 +101,27 @@ main (void)
 //  conv_quart_to_mlc ();
 //  pnt_spaces (TWO);
 
-  conv_inch_to_cm ();
+//  conv_inch_to_cm ();
+//  pnt_spaces (TWO);
+
+// printf("第四章字:符串和格式化输入输出\n");
+
+//  talkback_main ();
+//  pnt_spaces (TWO);
+
+//  praise_main ();
+//  pnt_spaces (TWO);
+
+//  praises_main ();
+//  pnt_spaces (TWO);
+
+//  pizza_main ();
+//  pnt_spaces (TWO);
+
+//  defines_main ();
+//  pnt_spaces (TWO);
+
+  printout_main ();
   pnt_spaces (TWO);
   return true;
 }

@@ -20,7 +20,7 @@ pnt_space (void)
 int
 pnt_spaces (int number)
 {
-  int n = 0;
+  int n = ZERO;
   int count = number;
   if (ZERO > count)
     {
