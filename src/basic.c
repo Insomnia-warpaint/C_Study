@@ -4,6 +4,14 @@
  *  Created on: 2021年11月3日
  *      Author: miga
  */
+#include "../include/longstrg.h"
+#include "../include/prntval.h"
+#include "../include/floatcnv.h"
+#include "../include/intconv.h"
+#include "../include/stringf.h"
+#include "../include/flags.h"
+#include "../include/floats.h"
+#include "../include/width.h"
 #include "../include/printout.h"
 #include "../include/defines.h"
 #include "../include/pizza.h"
@@ -121,7 +129,31 @@ main (void)
 //  defines_main ();
 //  pnt_spaces (TWO);
 
-  printout_main ();
+//  printout_main ();
+//  pnt_spaces (TWO);
+
+//  width_main ();
+//  pnt_spaces (TWO);
+
+//  floats_main ();
+//  pnt_spaces (TWO);
+
+//  flags_main ();
+//  pnt_spaces (TWO);
+
+//  stringf_main ();
+//  pnt_spaces (TWO);
+
+//  intconv_main ();
+//  pnt_spaces (TWO);
+
+//  floatcnv_main ();
+//  pnt_spaces (TWO);
+
+//  prntval_main ();
+//  pnt_spaces (TWO);
+
+  longstrg_main ();
   pnt_spaces (TWO);
   return true;
 }
