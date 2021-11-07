@@ -4,6 +4,7 @@
  *  Created on: 2021年11月3日
  *      Author: miga
  */
+#include "../include/entry_info.h"
 #include "../include/input_float.h"
 #include "../include/print_name.h"
 #include "../include/longstrg.h"
@@ -164,7 +165,10 @@ main (void)
 //  print_name_align ();
 //  pnt_spaces (TWO);
 
-  input_float_main ();
+//  input_float_main ();
+//  pnt_spaces (TWO);
+
+  entry_info_main ();
   pnt_spaces (TWO);
   return true;
 }
