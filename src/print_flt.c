@@ -9,7 +9,7 @@
  * 输入一个浮点数,以三种形式打印它
  */
 #include "../include/print_flt.h"
-#include "../include/bool.h";
+#include "../include/bool.h"
 #include "stdio.h"
 
 int

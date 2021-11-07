@@ -4,6 +4,10 @@
  *  Created on: 2021年11月3日
  *      Author: miga
  */
+#include "../include/calculate_distance.h"
+#include "../include/doub_flot_diff.h"
+#include "../include/calculate_strlen.h"
+#include "../include/print_dspeed.h"
 #include "../include/entry_info.h"
 #include "../include/input_float.h"
 #include "../include/print_name.h"
@@ -168,7 +172,19 @@ main (void)
 //  input_float_main ();
 //  pnt_spaces (TWO);
 
-  entry_info_main ();
+//  entry_info_main ();
+//  pnt_spaces (TWO);
+
+//  dspeed_main ();
+//  pnt_spaces (TWO);
+
+//  calculate_strlen_main ();
+//  pnt_spaces (TWO);
+
+//  doub_flot_dif_main ();
+//  pnt_spaces (TWO);
+
+  calculate_distance_main ();
   pnt_spaces (TWO);
   return true;
 }
