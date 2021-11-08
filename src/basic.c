@@ -4,6 +4,7 @@
  *  Created on: 2021年11月3日
  *      Author: miga
  */
+#include "../include/shoes.h"
 #include "../include/calculate_distance.h"
 #include "../include/doub_flot_diff.h"
 #include "../include/calculate_strlen.h"
@@ -184,7 +185,11 @@ main (void)
 //  doub_flot_dif_main ();
 //  pnt_spaces (TWO);
 
-  calculate_distance_main ();
+//  calculate_distance_main ();
+//  pnt_spaces (TWO);
+
+// printf("第五章:运算符、表达式和语句.\n");
+  shoes_main ();
   pnt_spaces (TWO);
   return true;
 }
