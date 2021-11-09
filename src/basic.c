@@ -4,6 +4,7 @@
  *  Created on: 2021年11月3日
  *      Author: miga
  */
+#include "../include/squares.h"
 #include "../include/shoes.h"
 #include "../include/calculate_distance.h"
 #include "../include/doub_flot_diff.h"
@@ -189,7 +190,10 @@ main (void)
 //  pnt_spaces (TWO);
 
 // printf("第五章:运算符、表达式和语句.\n");
-  shoes_main ();
+//  shoes_main ();
+//  pnt_spaces (TWO);
+
+  squares_main ();
   pnt_spaces (TWO);
   return true;
 }
