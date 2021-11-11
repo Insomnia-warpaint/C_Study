@@ -4,6 +4,7 @@
  *  Created on: 2021年11月3日
  *      Author: miga
  */
+#include "../include/wheat.h"
 #include "../include/squares.h"
 #include "../include/shoes.h"
 #include "../include/calculate_distance.h"
@@ -193,7 +194,10 @@ main (void)
 //  shoes_main ();
 //  pnt_spaces (TWO);
 
-  squares_main ();
+//  squares_main ();
+//  pnt_spaces (TWO);
+
+  wheat_main ();
   pnt_spaces (TWO);
   return true;
 }
