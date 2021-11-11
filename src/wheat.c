@@ -20,6 +20,7 @@ wheat_main (void)
   printf ("square       grains     total       ");
   printf ("fraction of \n");
   printf ("             added      grains\n");
+  total = current = 1.0;
   printf ("%4d %13.2e  %12.2e %12.2e\n", count, current, total, total / CROP);
   while (count < SQUARES)
     {
