@@ -4,6 +4,10 @@
  *  Created on: 2021年11月3日
  *      Author: miga
  */
+#include "../include/sizeof.h"
+#include "../include/rules.h"
+#include "../include/divide.h"
+#include "../include/golf.h"
 #include "../include/wheat.h"
 #include "../include/squares.h"
 #include "../include/shoes.h"
@@ -197,7 +201,20 @@ main (void)
 //  squares_main ();
 //  pnt_spaces (TWO);
 
-  wheat_main ();
+//  wheat_main ();
+//  pnt_spaces (TWO);
+
+//  golf_main ();
+//  pnt_spaces (TWO);
+
+//  divide_main ();
+//  pnt_spaces (TWO);
+
+//  rules_main ();
+//  pnt_spaces (TWO);
+
+  sizeof_main ();
   pnt_spaces (TWO);
+
   return true;
 }
