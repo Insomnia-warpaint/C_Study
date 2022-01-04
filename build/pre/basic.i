@@ -829,9 +829,13 @@ extern int __overflow (FILE *, int);
 int
 main (void)
 {
-# 216 "src/basic.c"
-  sizeof_main ();
-  pnt_spaces (2);
+# 218 "src/basic.c"
+  int a = 5;
+  int *x ;
+  x = &a;
+  printf("point x is %d \n", *x);
+  printf("point x value is %p \n", x);
+
 
   return 0;
 }

@@ -1,6 +1,12 @@
 	.file	"basic.c"
 	.text
 .Ltext0:
+	.section	.rodata
+.LC0:
+	.string	"point x is %d \n"
+.LC1:
+	.string	"point x value is %p \n"
+	.text
 	.globl	main
 	.type	main, @function
 main:
@@ -13,31 +19,55 @@ main:
 	.cfi_offset 6, -16
 	movq	%rsp, %rbp
 	.cfi_def_cfa_register 6
-	.loc 1 216 3
-	call	sizeof_main@PLT
-	.loc 1 217 3
-	movl	$2, %edi
-	call	pnt_spaces@PLT
-	.loc 1 219 10
+	subq	$32, %rsp
+	.loc 1 60 1
+	movq	%fs:40, %rax
+	movq	%rax, -8(%rbp)
+	xorl	%eax, %eax
+	.loc 1 218 7
+	movl	$5, -20(%rbp)
+	.loc 1 220 5
+	leaq	-20(%rbp), %rax
+	movq	%rax, -16(%rbp)
+	.loc 1 221 3
+	movq	-16(%rbp), %rax
+	movl	(%rax), %eax
+	movl	%eax, %esi
+	leaq	.LC0(%rip), %rax
+	movq	%rax, %rdi
 	movl	$0, %eax
-	.loc 1 220 1
-	popq	%rbp
+	call	printf@PLT
+	.loc 1 222 3
+	movq	-16(%rbp), %rax
+	movq	%rax, %rsi
+	leaq	.LC1(%rip), %rax
+	movq	%rax, %rdi
+	movl	$0, %eax
+	call	printf@PLT
+	.loc 1 225 10
+	movl	$0, %eax
+	.loc 1 226 1
+	movq	-8(%rbp), %rdx
+	subq	%fs:40, %rdx
+	je	.L3
+	call	__stack_chk_fail@PLT
+.L3:
+	leave
 	.cfi_def_cfa 7, 8
 	ret
 	.cfi_endproc
 .LFE0:
 	.size	main, .-main
 .Letext0:
-	.file 2 "src/../include/pnt_space.h"
-	.file 3 "src/../include/sizeof.h"
+	.file 2 "/usr/include/stdio.h"
 	.section	.debug_info,"",@progbits
 .Ldebug_info0:
-	.long	0xaa
+	.long	0xcc
 	.value	0x5
 	.byte	0x1
 	.byte	0x8
 	.long	.Ldebug_abbrev0
-	.uleb128 0x2
+	.uleb128 0x4
 	.long	.LASF10
 	.byte	0x1d
 	.long	.LASF0
@@ -69,7 +99,7 @@ main:
 	.byte	0x2
 	.byte	0x5
 	.long	.LASF7
-	.uleb128 0x3
+	.uleb128 0x5
 	.byte	0x4
 	.byte	0x5
 	.string	"int"
@@ -81,24 +111,23 @@ main:
 	.byte	0x1
 	.byte	0x6
 	.long	.LASF9
-	.uleb128 0x4
+	.uleb128 0x6
+	.long	0x66
+	.uleb128 0x7
 	.long	.LASF11
 	.byte	0x2
-	.byte	0xe
-	.byte	0x1
-	.long	0x58
-	.long	0x83
-	.uleb128 0x5
-	.long	0x58
-	.byte	0
-	.uleb128 0x6
-	.long	.LASF12
-	.byte	0x3
+	.value	0x14c
 	.byte	0xc
-	.byte	0x1
 	.long	0x58
-	.uleb128 0x7
-	.long	.LASF13
+	.long	0x8a
+	.uleb128 0x8
+	.long	0x8a
+	.uleb128 0x9
+	.byte	0
+	.uleb128 0x2
+	.long	0x6d
+	.uleb128 0xa
+	.long	.LASF12
 	.byte	0x1
 	.byte	0x3b
 	.byte	0x1
@@ -107,6 +136,26 @@ main:
 	.quad	.LFE0-.LFB0
 	.uleb128 0x1
 	.byte	0x9c
+	.long	0xca
+	.uleb128 0x3
+	.string	"a"
+	.byte	0xda
+	.byte	0x7
+	.long	0x58
+	.uleb128 0x2
+	.byte	0x91
+	.sleb128 -36
+	.uleb128 0x3
+	.string	"x"
+	.byte	0xdb
+	.byte	0x8
+	.long	0xca
+	.uleb128 0x2
+	.byte	0x91
+	.sleb128 -32
+	.byte	0
+	.uleb128 0x2
+	.long	0x58
 	.byte	0
 	.section	.debug_abbrev,"",@progbits
 .Ldebug_abbrev0:
@@ -122,6 +171,34 @@ main:
 	.byte	0
 	.byte	0
 	.uleb128 0x2
+	.uleb128 0xf
+	.byte	0
+	.uleb128 0xb
+	.uleb128 0x21
+	.sleb128 8
+	.uleb128 0x49
+	.uleb128 0x13
+	.byte	0
+	.byte	0
+	.uleb128 0x3
+	.uleb128 0x34
+	.byte	0
+	.uleb128 0x3
+	.uleb128 0x8
+	.uleb128 0x3a
+	.uleb128 0x21
+	.sleb128 1
+	.uleb128 0x3b
+	.uleb128 0xb
+	.uleb128 0x39
+	.uleb128 0xb
+	.uleb128 0x49
+	.uleb128 0x13
+	.uleb128 0x2
+	.uleb128 0x18
+	.byte	0
+	.byte	0
+	.uleb128 0x4
 	.uleb128 0x11
 	.byte	0x1
 	.uleb128 0x25
@@ -140,7 +217,7 @@ main:
 	.uleb128 0x17
 	.byte	0
 	.byte	0
-	.uleb128 0x3
+	.uleb128 0x5
 	.uleb128 0x24
 	.byte	0
 	.uleb128 0xb
@@ -151,7 +228,14 @@ main:
 	.uleb128 0x8
 	.byte	0
 	.byte	0
-	.uleb128 0x4
+	.uleb128 0x6
+	.uleb128 0x26
+	.byte	0
+	.uleb128 0x49
+	.uleb128 0x13
+	.byte	0
+	.byte	0
+	.uleb128 0x7
 	.uleb128 0x2e
 	.byte	0x1
 	.uleb128 0x3f
@@ -161,7 +245,7 @@ main:
 	.uleb128 0x3a
 	.uleb128 0xb
 	.uleb128 0x3b
-	.uleb128 0xb
+	.uleb128 0x5
 	.uleb128 0x39
 	.uleb128 0xb
 	.uleb128 0x27
@@ -174,37 +258,21 @@ main:
 	.uleb128 0x13
 	.byte	0
 	.byte	0
-	.uleb128 0x5
+	.uleb128 0x8
 	.uleb128 0x5
 	.byte	0
 	.uleb128 0x49
 	.uleb128 0x13
 	.byte	0
 	.byte	0
-	.uleb128 0x6
+	.uleb128 0x9
+	.uleb128 0x18
+	.byte	0
+	.byte	0
+	.byte	0
+	.uleb128 0xa
 	.uleb128 0x2e
-	.byte	0
-	.uleb128 0x3f
-	.uleb128 0x19
-	.uleb128 0x3
-	.uleb128 0xe
-	.uleb128 0x3a
-	.uleb128 0xb
-	.uleb128 0x3b
-	.uleb128 0xb
-	.uleb128 0x39
-	.uleb128 0xb
-	.uleb128 0x27
-	.uleb128 0x19
-	.uleb128 0x49
-	.uleb128 0x13
-	.uleb128 0x3c
-	.uleb128 0x19
-	.byte	0
-	.byte	0
-	.uleb128 0x7
-	.uleb128 0x2e
-	.byte	0
+	.byte	0x1
 	.uleb128 0x3f
 	.uleb128 0x19
 	.uleb128 0x3
@@ -227,6 +295,8 @@ main:
 	.uleb128 0x18
 	.uleb128 0x7c
 	.uleb128 0x19
+	.uleb128 0x1
+	.uleb128 0x13
 	.byte	0
 	.byte	0
 	.byte	0
@@ -250,26 +320,24 @@ main:
 	.string	"unsigned int"
 .LASF2:
 	.string	"long unsigned int"
-.LASF6:
-	.string	"signed char"
-.LASF5:
-	.string	"short unsigned int"
-.LASF7:
-	.string	"short int"
-.LASF9:
-	.string	"char"
-.LASF10:
-	.string	"GNU C11 11.1.0 -mtune=generic -march=x86-64 -g -std=c11"
 .LASF4:
 	.string	"unsigned char"
+.LASF5:
+	.string	"short unsigned int"
+.LASF6:
+	.string	"signed char"
+.LASF7:
+	.string	"short int"
+.LASF10:
+	.string	"GNU C11 11.1.0 -mtune=generic -march=x86-64 -g -std=c11"
 .LASF8:
 	.string	"long int"
-.LASF13:
-	.string	"main"
-.LASF11:
-	.string	"pnt_spaces"
 .LASF12:
-	.string	"sizeof_main"
+	.string	"main"
+.LASF9:
+	.string	"char"
+.LASF11:
+	.string	"printf"
 	.section	.debug_line_str,"MS",@progbits,1
 .LASF1:
 	.string	"/home/insomnia/Code/c-basic"

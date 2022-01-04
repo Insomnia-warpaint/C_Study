@@ -213,8 +213,14 @@ main (void)
 //  rules_main ();
 //  pnt_spaces (TWO);
 
-  sizeof_main ();
-  pnt_spaces (TWO);
+//  sizeof_main ();
+//  pnt_spaces (TWO);
+  int a = 5;
+  int *x ;
+  x = &a;
+  printf("point x is %d \n", *x);
+  printf("point x value is %p \n", x);
+
 
   return true;
 }
