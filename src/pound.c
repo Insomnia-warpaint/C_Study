@@ -13,7 +13,7 @@ pound_main(void)
     int times = 5;
     char ch = '!';
     float f = 6.0;
-
+    int *p = &ch;
     pound(&times);
     pound(&ch);
     pound(&f);
@@ -22,8 +22,12 @@ pound_main(void)
 
 void pound(int *n)
 {
-    while(*--n > 0)
+    printf("%d \n", *n);
+    while(*n > 0)
+    {
         printf("#");
+        *n--;
+    }
     printf("\n");
 }
 

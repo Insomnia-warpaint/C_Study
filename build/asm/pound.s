@@ -19,22 +19,25 @@ pound_main:
 	movq	%rax, -8(%rbp)
 	xorl	%eax, %eax
 	.loc 1 13 9
-	movl	$5, -16(%rbp)
+	movl	$5, -24(%rbp)
 	.loc 1 14 10
-	movb	$33, -17(%rbp)
+	movb	$33, -25(%rbp)
 	.loc 1 15 11
 	movss	.LC0(%rip), %xmm0
-	movss	%xmm0, -12(%rbp)
+	movss	%xmm0, -20(%rbp)
+	.loc 1 16 10
+	leaq	-25(%rbp), %rax
+	movq	%rax, -16(%rbp)
 	.loc 1 17 5
-	leaq	-16(%rbp), %rax
+	leaq	-24(%rbp), %rax
 	movq	%rax, %rdi
 	call	pound
 	.loc 1 18 5
-	leaq	-17(%rbp), %rax
+	leaq	-25(%rbp), %rax
 	movq	%rax, %rdi
 	call	pound
 	.loc 1 19 5
-	leaq	-12(%rbp), %rax
+	leaq	-20(%rbp), %rax
 	movq	%rax, %rdi
 	call	pound
 	.loc 1 20 12
@@ -51,6 +54,10 @@ pound_main:
 	.cfi_endproc
 .LFE0:
 	.size	pound_main, .-pound_main
+	.section	.rodata
+.LC1:
+	.string	"%d \n"
+	.text
 	.globl	pound
 	.type	pound, @function
 pound:
@@ -64,25 +71,35 @@ pound:
 	.cfi_def_cfa_register 6
 	subq	$16, %rsp
 	movq	%rdi, -8(%rbp)
-	.loc 1 25 10
-	jmp	.L5
-.L6:
-	.loc 1 26 9
-	movl	$35, %edi
-	call	putchar@PLT
-.L5:
-	.loc 1 25 16
-	subq	$4, -8(%rbp)
-	.loc 1 25 11
+	.loc 1 25 5
 	movq	-8(%rbp), %rax
 	movl	(%rax), %eax
-	.loc 1 25 16
+	movl	%eax, %esi
+	leaq	.LC1(%rip), %rax
+	movq	%rax, %rdi
+	movl	$0, %eax
+	call	printf@PLT
+	.loc 1 26 10
+	jmp	.L5
+.L6:
+	.loc 1 28 9
+	movl	$35, %edi
+	call	putchar@PLT
+	.loc 1 29 11
+	movq	-8(%rbp), %rax
+	subq	$4, %rax
+	movq	%rax, -8(%rbp)
+.L5:
+	.loc 1 26 11
+	movq	-8(%rbp), %rax
+	movl	(%rax), %eax
+	.loc 1 26 14
 	testl	%eax, %eax
 	jg	.L6
-	.loc 1 27 5
+	.loc 1 31 5
 	movl	$10, %edi
 	call	putchar@PLT
-	.loc 1 28 1
+	.loc 1 32 1
 	nop
 	leave
 	.cfi_def_cfa 7, 8
@@ -96,14 +113,15 @@ pound:
 	.long	1086324736
 	.text
 .Letext0:
+	.file 2 "/usr/include/stdio.h"
 	.section	.debug_info,"",@progbits
 .Ldebug_info0:
-	.long	0xf5
+	.long	0x122
 	.value	0x5
 	.byte	0x1
 	.byte	0x8
 	.long	.Ldebug_abbrev0
-	.uleb128 0x3
+	.uleb128 0x4
 	.long	.LASF13
 	.byte	0x1d
 	.long	.LASF0
@@ -115,7 +133,7 @@ pound:
 	.byte	0x8
 	.byte	0x7
 	.long	.LASF2
-	.uleb128 0x4
+	.uleb128 0x5
 	.byte	0x4
 	.byte	0x5
 	.string	"int"
@@ -151,8 +169,23 @@ pound:
 	.byte	0x1
 	.byte	0x6
 	.long	.LASF10
-	.uleb128 0x5
+	.uleb128 0x6
+	.long	0x6d
+	.uleb128 0x7
 	.long	.LASF14
+	.byte	0x2
+	.value	0x14c
+	.byte	0xc
+	.long	0x35
+	.long	0x91
+	.uleb128 0x8
+	.long	0x91
+	.uleb128 0x9
+	.byte	0
+	.uleb128 0x3
+	.long	0x74
+	.uleb128 0xa
+	.long	.LASF15
 	.byte	0x1
 	.byte	0x17
 	.byte	0x6
@@ -160,22 +193,21 @@ pound:
 	.quad	.LFE1-.LFB1
 	.uleb128 0x1
 	.byte	0x9c
-	.long	0xa0
-	.uleb128 0x6
+	.long	0xc2
+	.uleb128 0xb
 	.string	"n"
 	.byte	0x1
 	.byte	0x17
 	.byte	0x11
-	.long	0xa0
+	.long	0xc2
 	.uleb128 0x2
 	.byte	0x91
 	.sleb128 -24
 	.byte	0
-	.uleb128 0x7
-	.byte	0x8
+	.uleb128 0x3
 	.long	0x35
-	.uleb128 0x8
-	.long	.LASF15
+	.uleb128 0xc
+	.long	.LASF16
 	.byte	0x1
 	.byte	0xb
 	.byte	0x1
@@ -184,8 +216,8 @@ pound:
 	.quad	.LFE0-.LFB0
 	.uleb128 0x1
 	.byte	0x9c
-	.long	0xf1
-	.uleb128 0x9
+	.long	0x11e
+	.uleb128 0xd
 	.long	.LASF11
 	.byte	0x1
 	.byte	0xd
@@ -193,7 +225,7 @@ pound:
 	.long	0x35
 	.uleb128 0x2
 	.byte	0x91
-	.sleb128 -32
+	.sleb128 -40
 	.uleb128 0x2
 	.string	"ch"
 	.byte	0xe
@@ -201,15 +233,23 @@ pound:
 	.long	0x6d
 	.uleb128 0x2
 	.byte	0x91
-	.sleb128 -33
+	.sleb128 -41
 	.uleb128 0x2
 	.string	"f"
 	.byte	0xf
 	.byte	0xb
-	.long	0xf1
+	.long	0x11e
 	.uleb128 0x2
 	.byte	0x91
-	.sleb128 -28
+	.sleb128 -36
+	.uleb128 0x2
+	.string	"p"
+	.byte	0x10
+	.byte	0xa
+	.long	0xc2
+	.uleb128 0x2
+	.byte	0x91
+	.sleb128 -32
 	.byte	0
 	.uleb128 0x1
 	.byte	0x4
@@ -248,6 +288,16 @@ pound:
 	.byte	0
 	.byte	0
 	.uleb128 0x3
+	.uleb128 0xf
+	.byte	0
+	.uleb128 0xb
+	.uleb128 0x21
+	.sleb128 8
+	.uleb128 0x49
+	.uleb128 0x13
+	.byte	0
+	.byte	0
+	.uleb128 0x4
 	.uleb128 0x11
 	.byte	0x1
 	.uleb128 0x25
@@ -266,7 +316,7 @@ pound:
 	.uleb128 0x17
 	.byte	0
 	.byte	0
-	.uleb128 0x4
+	.uleb128 0x5
 	.uleb128 0x24
 	.byte	0
 	.uleb128 0xb
@@ -277,7 +327,49 @@ pound:
 	.uleb128 0x8
 	.byte	0
 	.byte	0
+	.uleb128 0x6
+	.uleb128 0x26
+	.byte	0
+	.uleb128 0x49
+	.uleb128 0x13
+	.byte	0
+	.byte	0
+	.uleb128 0x7
+	.uleb128 0x2e
+	.byte	0x1
+	.uleb128 0x3f
+	.uleb128 0x19
+	.uleb128 0x3
+	.uleb128 0xe
+	.uleb128 0x3a
+	.uleb128 0xb
+	.uleb128 0x3b
 	.uleb128 0x5
+	.uleb128 0x39
+	.uleb128 0xb
+	.uleb128 0x27
+	.uleb128 0x19
+	.uleb128 0x49
+	.uleb128 0x13
+	.uleb128 0x3c
+	.uleb128 0x19
+	.uleb128 0x1
+	.uleb128 0x13
+	.byte	0
+	.byte	0
+	.uleb128 0x8
+	.uleb128 0x5
+	.byte	0
+	.uleb128 0x49
+	.uleb128 0x13
+	.byte	0
+	.byte	0
+	.uleb128 0x9
+	.uleb128 0x18
+	.byte	0
+	.byte	0
+	.byte	0
+	.uleb128 0xa
 	.uleb128 0x2e
 	.byte	0x1
 	.uleb128 0x3f
@@ -304,7 +396,7 @@ pound:
 	.uleb128 0x13
 	.byte	0
 	.byte	0
-	.uleb128 0x6
+	.uleb128 0xb
 	.uleb128 0x5
 	.byte	0
 	.uleb128 0x3
@@ -321,16 +413,7 @@ pound:
 	.uleb128 0x18
 	.byte	0
 	.byte	0
-	.uleb128 0x7
-	.uleb128 0xf
-	.byte	0
-	.uleb128 0xb
-	.uleb128 0xb
-	.uleb128 0x49
-	.uleb128 0x13
-	.byte	0
-	.byte	0
-	.uleb128 0x8
+	.uleb128 0xc
 	.uleb128 0x2e
 	.byte	0x1
 	.uleb128 0x3f
@@ -359,7 +442,7 @@ pound:
 	.uleb128 0x13
 	.byte	0
 	.byte	0
-	.uleb128 0x9
+	.uleb128 0xd
 	.uleb128 0x34
 	.byte	0
 	.uleb128 0x3
@@ -403,24 +486,26 @@ pound:
 	.string	"GNU C11 11.1.0 -mtune=generic -march=x86-64 -g -std=c11"
 .LASF2:
 	.string	"long unsigned int"
-.LASF14:
+.LASF15:
 	.string	"pound"
 .LASF10:
 	.string	"char"
 .LASF3:
 	.string	"long int"
-.LASF15:
+.LASF16:
 	.string	"pound_main"
 .LASF7:
 	.string	"short unsigned int"
-.LASF8:
-	.string	"signed char"
+.LASF14:
+	.string	"printf"
 .LASF12:
 	.string	"float"
 .LASF9:
 	.string	"short int"
 .LASF11:
 	.string	"times"
+.LASF8:
+	.string	"signed char"
 	.section	.debug_line_str,"MS",@progbits,1
 .LASF1:
 	.string	"/home/insomnia/Code/c-basic"
