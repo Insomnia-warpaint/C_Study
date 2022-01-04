@@ -4,6 +4,8 @@
  *  Created on: 2021年11月3日
  *      Author: miga
  */
+
+#include "../include/pound.h"
 #include "../include/sizeof.h"
 #include "../include/rules.h"
 #include "../include/divide.h"
@@ -53,12 +55,12 @@
 #include "../include/hello.h"
 #include "../include/pnt_space.h"
 #include "../include/bool.h"
-#include "stdio.h"
+#include <stdio.h>
 #define TWO 2
 int
 main (void)
 {
-//  printf ("第二章: C 语言概述.\n");
+//  printf (<第二章: C 语言概述.\n>);
 //  hello_main ();
 //  pnt_spaces (TWO);
 
@@ -77,7 +79,7 @@ main (void)
 //  sorted_main ();
 //  pnt_spaces (TWO);
 
-//  printf ("第三章: 数据和C.\n");
+//  printf (<第三章: 数据和C.\n>);
 //  platinum_main ();
 //  pnt_spaces (TWO);
 
@@ -126,7 +128,7 @@ main (void)
 //  conv_inch_to_cm ();
 //  pnt_spaces (TWO);
 
-// printf("第四章字:符串和格式化输入输出\n");
+// printf(<第四章字:符串和格式化输入输出\n>);
 
 //  talkback_main ();
 //  pnt_spaces (TWO);
@@ -194,7 +196,7 @@ main (void)
 //  calculate_distance_main ();
 //  pnt_spaces (TWO);
 
-// printf("第五章:运算符、表达式和语句.\n");
+// printf(<第五章:运算符、表达式和语句.\n>);
 //  shoes_main ();
 //  pnt_spaces (TWO);
 
@@ -221,6 +223,8 @@ main (void)
   printf("point x is %d \n", *x);
   printf("point x value is %p \n", x);
 
+  pound_main();
+  pnt_spaces(TWO);
 
   return true;
 }

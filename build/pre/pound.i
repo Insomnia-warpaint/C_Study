@@ -1,16 +1,10 @@
-# 0 "src/basic.c"
+# 0 "src/pound.c"
 # 1 "/home/insomnia/Code/c-basic//"
 # 0 "<built-in>"
 # 0 "<command-line>"
 # 1 "/usr/include/stdc-predef.h" 1 3 4
 # 0 "<command-line>" 2
-# 1 "src/basic.c"
-
-
-
-
-
-
+# 1 "src/pound.c"
 
 # 1 "src/../include/pound.h" 1
 
@@ -19,297 +13,11 @@
 
 int
 pound_main(void);
-# 9 "src/basic.c" 2
-# 1 "src/../include/sizeof.h" 1
-# 11 "src/../include/sizeof.h"
-int
-sizeof_main (void);
-# 10 "src/basic.c" 2
-# 1 "src/../include/rules.h" 1
-# 11 "src/../include/rules.h"
-int
-rules_main (void);
-# 11 "src/basic.c" 2
-# 1 "src/../include/divide.h" 1
-# 11 "src/../include/divide.h"
-int
-divide_main (void);
-# 12 "src/basic.c" 2
-# 1 "src/../include/golf.h" 1
-# 11 "src/../include/golf.h"
-int
-golf_main (void);
-# 13 "src/basic.c" 2
-# 1 "src/../include/wheat.h" 1
-# 11 "src/../include/wheat.h"
-int
-wheat_main (void);
-# 14 "src/basic.c" 2
-# 1 "src/../include/squares.h" 1
-# 11 "src/../include/squares.h"
-int
-squares_main (void);
-# 15 "src/basic.c" 2
-# 1 "src/../include/shoes.h" 1
-# 11 "src/../include/shoes.h"
-int
-shoes_main (void);
-# 16 "src/basic.c" 2
-# 1 "src/../include/calculate_distance.h" 1
-# 11 "src/../include/calculate_distance.h"
-int
-calculate_distance_main (void);
-# 17 "src/basic.c" 2
-# 1 "src/../include/doub_flot_diff.h" 1
-# 11 "src/../include/doub_flot_diff.h"
-int
-doub_flot_dif_main (void);
-# 18 "src/basic.c" 2
-# 1 "src/../include/calculate_strlen.h" 1
-# 11 "src/../include/calculate_strlen.h"
-int
-calculate_strlen_main (void);
-# 19 "src/basic.c" 2
-# 1 "src/../include/print_dspeed.h" 1
-# 11 "src/../include/print_dspeed.h"
-int
-dspeed_main (void);
-# 20 "src/basic.c" 2
-# 1 "src/../include/entry_info.h" 1
-# 11 "src/../include/entry_info.h"
-int
-entry_info_main (void);
-# 21 "src/basic.c" 2
-# 1 "src/../include/input_float.h" 1
-# 11 "src/../include/input_float.h"
-int
-input_float_main (void);
-# 22 "src/basic.c" 2
-# 1 "src/../include/print_name.h" 1
-# 11 "src/../include/print_name.h"
-int
-print_name_main (void);
-
-int
-print_name_align (void);
-# 23 "src/basic.c" 2
-# 1 "src/../include/longstrg.h" 1
-# 11 "src/../include/longstrg.h"
-int
-longstrg_main (void);
-# 24 "src/basic.c" 2
-# 1 "src/../include/prntval.h" 1
-# 11 "src/../include/prntval.h"
-int
-prntval_main (void);
-# 25 "src/basic.c" 2
-# 1 "src/../include/floatcnv.h" 1
-# 11 "src/../include/floatcnv.h"
-int
-floatcnv_main (void);
-# 26 "src/basic.c" 2
-# 1 "src/../include/intconv.h" 1
-# 11 "src/../include/intconv.h"
-int
-intconv_main (void);
-# 27 "src/basic.c" 2
-# 1 "src/../include/stringf.h" 1
-# 11 "src/../include/stringf.h"
-int
-stringf_main (void);
-# 28 "src/basic.c" 2
-# 1 "src/../include/flags.h" 1
-# 11 "src/../include/flags.h"
-int
-flags_main (void);
-# 29 "src/basic.c" 2
-# 1 "src/../include/floats.h" 1
-# 11 "src/../include/floats.h"
-int
-floats_main (void);
-# 30 "src/basic.c" 2
-# 1 "src/../include/width.h" 1
-# 11 "src/../include/width.h"
-int
-width_main (void);
-# 31 "src/basic.c" 2
-# 1 "src/../include/printout.h" 1
-# 11 "src/../include/printout.h"
-int
-printout_main (void);
-# 32 "src/basic.c" 2
-# 1 "src/../include/defines.h" 1
-# 11 "src/../include/defines.h"
-int
-defines_main (void);
-# 33 "src/basic.c" 2
-# 1 "src/../include/pizza.h" 1
-# 11 "src/../include/pizza.h"
-int
-pizza_main (void);
-# 34 "src/basic.c" 2
-# 1 "src/../include/praise.h" 1
-# 11 "src/../include/praise.h"
-int
-priase_main (void);
-
-int
-praises_main (void);
-# 35 "src/basic.c" 2
-# 1 "src/../include/talkback.h" 1
-# 11 "src/../include/talkback.h"
-int
-talkback_main (void);
-# 36 "src/basic.c" 2
-# 1 "src/../include/conv_inch_to_centimeter.h" 1
-# 11 "src/../include/conv_inch_to_centimeter.h"
-int
-conv_inch_to_cm (void);
-# 37 "src/basic.c" 2
-# 1 "src/../include/conv_quart_to_molecule.h" 1
-# 10 "src/../include/conv_quart_to_molecule.h"
-int
-conv_quart_to_mlc (void);
-# 38 "src/basic.c" 2
-# 1 "src/../include/conv_age_to_sec.h" 1
-# 11 "src/../include/conv_age_to_sec.h"
-int
-conv_age_main (void);
-# 39 "src/basic.c" 2
-# 1 "src/../include/print_flt.h" 1
-# 11 "src/../include/print_flt.h"
-int
-print_flt_main (void);
-# 40 "src/basic.c" 2
-# 1 "src/../include/print_ch.h" 1
-# 11 "src/../include/print_ch.h"
-int
-print_ch_main (void);
-# 41 "src/basic.c" 2
-# 1 "src/../include/escape.h" 1
-# 11 "src/../include/escape.h"
-int
-escape_main (void);
-# 42 "src/basic.c" 2
-# 1 "src/../include/floaterr.h" 1
-# 11 "src/../include/floaterr.h"
-int
-floaterr_main (void);
-# 43 "src/basic.c" 2
-# 1 "src/../include/showf_pt.h" 1
-# 11 "src/../include/showf_pt.h"
-int
-showf_pt_main (void);
-# 44 "src/basic.c" 2
-# 1 "src/../include/altnames.h" 1
-# 11 "src/../include/altnames.h"
-int
-altnames_main (void);
-# 45 "src/basic.c" 2
-# 1 "src/../include/charcode.h" 1
-# 11 "src/../include/charcode.h"
-int
-charcode_main (void);
-# 46 "src/basic.c" 2
-# 1 "src/../include/print_unsigned.h" 1
-# 12 "src/../include/print_unsigned.h"
-int
-print_unsigned_main (void);
-# 47 "src/basic.c" 2
-# 1 "src/../include/toobig.h" 1
-# 11 "src/../include/toobig.h"
-int
-toobig_main (void);
-# 48 "src/basic.c" 2
-# 1 "src/../include/bases.h" 1
-# 11 "src/../include/bases.h"
-int
-bases_main (void);
-# 49 "src/basic.c" 2
-# 1 "src/../include/platinum.h" 1
-# 11 "src/../include/platinum.h"
-int
-platinum_main (void);
-# 50 "src/basic.c" 2
-# 1 "src/../include/sorted.h" 1
-# 11 "src/../include/sorted.h"
-int
-sorted_main (void);
-# 51 "src/basic.c" 2
-# 1 "src/../include/parctice_printf.h" 1
-# 10 "src/../include/parctice_printf.h"
-int
-parctice_printf_main (void);
-
-void
-print_en_name (void);
-
-void
-convert_age_to_day (void);
-
-void
-self_introducation (void);
-
-void
-jolly (void);
-
-void
-deny (void);
-
-void
-br (void);
-
-void
-ic (void);
-
-void
-smile (void);
-
-void
-func_invok_func (void);
-
-void
-one_three (void);
-
-void
-two (void);
-# 52 "src/basic.c" 2
-# 1 "src/../include/func.h" 1
-# 10 "src/../include/func.h"
-int
-func_main (void);
-
-
-void
-butler (void);
-# 53 "src/basic.c" 2
-# 1 "src/../include/logic_err.h" 1
-# 11 "src/../include/logic_err.h"
-int
-logic_err_main (void);
-# 54 "src/basic.c" 2
-# 1 "src/../include/fathm_ft.h" 1
-# 11 "src/../include/fathm_ft.h"
-int
-fathm_ft_main (void);
-# 55 "src/basic.c" 2
-# 1 "src/../include/hello.h" 1
-# 11 "src/../include/hello.h"
-int
-hello_main (void);
-# 56 "src/basic.c" 2
-# 1 "src/../include/pnt_space.h" 1
-# 10 "src/../include/pnt_space.h"
-int
-pnt_space (void);
-
-int
-pnt_spaces (int number);
-# 57 "src/basic.c" 2
+# 3 "src/pound.c" 2
 # 1 "src/../include/bool.h" 1
-# 58 "src/basic.c" 2
-# 1 "/usr/include/stdio.h" 1 3 4
-# 27 "/usr/include/stdio.h" 3 4
+# 4 "src/pound.c" 2
+# 1 "/usr/include/stdlib.h" 1 3 4
+# 25 "/usr/include/stdlib.h" 3 4
 # 1 "/usr/include/bits/libc-header-start.h" 1 3 4
 # 33 "/usr/include/bits/libc-header-start.h" 3 4
 # 1 "/usr/include/features.h" 1 3 4
@@ -328,7 +36,7 @@ pnt_spaces (int number);
 # 11 "/usr/include/gnu/stubs.h" 2 3 4
 # 498 "/usr/include/features.h" 2 3 4
 # 34 "/usr/include/bits/libc-header-start.h" 2 3 4
-# 28 "/usr/include/stdio.h" 2 3 4
+# 26 "/usr/include/stdlib.h" 2 3 4
 
 
 
@@ -339,6 +47,229 @@ pnt_spaces (int number);
 
 # 209 "/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/stddef.h" 3 4
 typedef long unsigned int size_t;
+# 321 "/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/stddef.h" 3 4
+typedef int wchar_t;
+# 32 "/usr/include/stdlib.h" 2 3 4
+
+
+# 55 "/usr/include/stdlib.h" 3 4
+# 1 "/usr/include/bits/floatn.h" 1 3 4
+# 119 "/usr/include/bits/floatn.h" 3 4
+# 1 "/usr/include/bits/floatn-common.h" 1 3 4
+# 24 "/usr/include/bits/floatn-common.h" 3 4
+# 1 "/usr/include/bits/long-double.h" 1 3 4
+# 25 "/usr/include/bits/floatn-common.h" 2 3 4
+# 120 "/usr/include/bits/floatn.h" 2 3 4
+# 56 "/usr/include/stdlib.h" 2 3 4
+
+
+typedef struct
+  {
+    int quot;
+    int rem;
+  } div_t;
+
+
+
+typedef struct
+  {
+    long int quot;
+    long int rem;
+  } ldiv_t;
+
+
+
+
+
+__extension__ typedef struct
+  {
+    long long int quot;
+    long long int rem;
+  } lldiv_t;
+# 97 "/usr/include/stdlib.h" 3 4
+extern size_t __ctype_get_mb_cur_max (void) __attribute__ ((__nothrow__ , __leaf__)) ;
+
+
+
+extern double atof (const char *__nptr)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1))) ;
+
+extern int atoi (const char *__nptr)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1))) ;
+
+extern long int atol (const char *__nptr)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1))) ;
+
+
+
+__extension__ extern long long int atoll (const char *__nptr)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1))) ;
+
+
+
+extern double strtod (const char *__restrict __nptr,
+        char **__restrict __endptr)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1)));
+
+
+
+extern float strtof (const char *__restrict __nptr,
+       char **__restrict __endptr) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1)));
+
+extern long double strtold (const char *__restrict __nptr,
+       char **__restrict __endptr)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1)));
+# 176 "/usr/include/stdlib.h" 3 4
+extern long int strtol (const char *__restrict __nptr,
+   char **__restrict __endptr, int __base)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1)));
+
+extern unsigned long int strtoul (const char *__restrict __nptr,
+      char **__restrict __endptr, int __base)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1)));
+# 199 "/usr/include/stdlib.h" 3 4
+__extension__
+extern long long int strtoll (const char *__restrict __nptr,
+         char **__restrict __endptr, int __base)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1)));
+
+__extension__
+extern unsigned long long int strtoull (const char *__restrict __nptr,
+     char **__restrict __endptr, int __base)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1)));
+# 453 "/usr/include/stdlib.h" 3 4
+extern int rand (void) __attribute__ ((__nothrow__ , __leaf__));
+
+extern void srand (unsigned int __seed) __attribute__ ((__nothrow__ , __leaf__));
+# 539 "/usr/include/stdlib.h" 3 4
+extern void *malloc (size_t __size) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__malloc__))
+     __attribute__ ((__alloc_size__ (1))) ;
+
+extern void *calloc (size_t __nmemb, size_t __size)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__malloc__)) __attribute__ ((__alloc_size__ (1, 2))) ;
+
+
+
+
+
+
+extern void *realloc (void *__ptr, size_t __size)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__warn_unused_result__)) __attribute__ ((__alloc_size__ (2)));
+# 565 "/usr/include/stdlib.h" 3 4
+extern void free (void *__ptr) __attribute__ ((__nothrow__ , __leaf__));
+# 586 "/usr/include/stdlib.h" 3 4
+extern void *aligned_alloc (size_t __alignment, size_t __size)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__malloc__)) __attribute__ ((__alloc_size__ (2))) ;
+
+
+
+extern void abort (void) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__noreturn__));
+
+
+
+extern int atexit (void (*__func) (void)) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1)));
+
+
+
+
+
+
+
+extern int at_quick_exit (void (*__func) (void)) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1)));
+# 617 "/usr/include/stdlib.h" 3 4
+extern void exit (int __status) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__noreturn__));
+
+
+
+
+
+extern void quick_exit (int __status) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__noreturn__));
+
+
+
+
+
+extern void _Exit (int __status) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__noreturn__));
+
+
+
+
+extern char *getenv (const char *__name) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1))) ;
+# 784 "/usr/include/stdlib.h" 3 4
+extern int system (const char *__command) ;
+# 808 "/usr/include/stdlib.h" 3 4
+typedef int (*__compar_fn_t) (const void *, const void *);
+# 820 "/usr/include/stdlib.h" 3 4
+extern void *bsearch (const void *__key, const void *__base,
+        size_t __nmemb, size_t __size, __compar_fn_t __compar)
+     __attribute__ ((__nonnull__ (1, 2, 5))) ;
+
+
+
+
+
+
+
+extern void qsort (void *__base, size_t __nmemb, size_t __size,
+     __compar_fn_t __compar) __attribute__ ((__nonnull__ (1, 4)));
+# 840 "/usr/include/stdlib.h" 3 4
+extern int abs (int __x) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__const__)) ;
+extern long int labs (long int __x) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__const__)) ;
+
+
+__extension__ extern long long int llabs (long long int __x)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__const__)) ;
+
+
+
+
+
+
+extern div_t div (int __numer, int __denom)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__const__)) ;
+extern ldiv_t ldiv (long int __numer, long int __denom)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__const__)) ;
+
+
+__extension__ extern lldiv_t lldiv (long long int __numer,
+        long long int __denom)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__const__)) ;
+# 922 "/usr/include/stdlib.h" 3 4
+extern int mblen (const char *__s, size_t __n) __attribute__ ((__nothrow__ , __leaf__));
+
+
+extern int mbtowc (wchar_t *__restrict __pwc,
+     const char *__restrict __s, size_t __n) __attribute__ ((__nothrow__ , __leaf__));
+
+
+extern int wctomb (char *__s, wchar_t __wchar) __attribute__ ((__nothrow__ , __leaf__));
+
+
+
+extern size_t mbstowcs (wchar_t *__restrict __pwcs,
+   const char *__restrict __s, size_t __n) __attribute__ ((__nothrow__ , __leaf__))
+    __attribute__ ((__access__ (__read_only__, 2)));
+
+extern size_t wcstombs (char *__restrict __s,
+   const wchar_t *__restrict __pwcs, size_t __n)
+     __attribute__ ((__nothrow__ , __leaf__))
+  __attribute__ ((__access__ (__write_only__, 1, 3))) __attribute__ ((__access__ (__read_only__, 2)));
+# 1014 "/usr/include/stdlib.h" 3 4
+# 1 "/usr/include/bits/stdlib-float.h" 1 3 4
+# 1015 "/usr/include/stdlib.h" 2 3 4
+# 1026 "/usr/include/stdlib.h" 3 4
+
+# 5 "src/pound.c" 2
+# 1 "/usr/include/stdio.h" 1 3 4
+# 27 "/usr/include/stdio.h" 3 4
+# 1 "/usr/include/bits/libc-header-start.h" 1 3 4
+# 28 "/usr/include/stdio.h" 2 3 4
+
+
+
+
+
+# 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/stddef.h" 1 3 4
 # 34 "/usr/include/stdio.h" 2 3 4
 
 
@@ -691,22 +622,7 @@ extern int scanf (const char *__restrict __format, ...) ;
 
 extern int sscanf (const char *__restrict __s,
      const char *__restrict __format, ...) __attribute__ ((__nothrow__ , __leaf__));
-
-
-
-
-
-# 1 "/usr/include/bits/floatn.h" 1 3 4
-# 119 "/usr/include/bits/floatn.h" 3 4
-# 1 "/usr/include/bits/floatn-common.h" 1 3 4
-# 24 "/usr/include/bits/floatn-common.h" 3 4
-# 1 "/usr/include/bits/long-double.h" 1 3 4
-# 25 "/usr/include/bits/floatn-common.h" 2 3 4
-# 120 "/usr/include/bits/floatn.h" 2 3 4
-# 407 "/usr/include/stdio.h" 2 3 4
-
-
-
+# 410 "/usr/include/stdio.h" 3 4
 extern int fscanf (FILE *__restrict __stream, const char *__restrict __format, ...) __asm__ ("" "__isoc99_fscanf")
 
                                ;
@@ -831,22 +747,29 @@ extern int __uflow (FILE *);
 extern int __overflow (FILE *, int);
 # 874 "/usr/include/stdio.h" 3 4
 
-# 59 "src/basic.c" 2
+# 6 "src/pound.c" 2
 
 
-# 60 "src/basic.c"
+# 7 "src/pound.c"
+void
+pound(int *n);
+
 int
-main (void)
+pound_main(void)
 {
-# 220 "src/basic.c"
-  int a = 5;
-  int *x ;
-  x = &a;
-  printf("point x is %d \n", *x);
-  printf("point x value is %p \n", x);
+    int times = 5;
+    char ch = '!';
+    float f = 6.0;
 
-  pound_main();
-  pnt_spaces(2);
+    pound(&times);
+    pound(&ch);
+    pound(&f);
+    return 0;
+}
 
-  return 0;
+void pound(int *n)
+{
+    while(*--n > 0)
+        printf("#");
+    printf("\n");
 }
