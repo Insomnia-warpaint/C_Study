@@ -5,6 +5,7 @@
  *      Author: miga
  */
 
+#include "../include/running.h"
 #include "../include/pound.h"
 #include "../include/sizeof.h"
 #include "../include/rules.h"
@@ -217,14 +218,12 @@ main (void)
 
 //  sizeof_main ();
 //  pnt_spaces (TWO);
-  int a = 5;
-  int *x ;
-  x = &a;
-  printf("point x is %d \n", *x);
-  printf("point x value is %p \n", x);
 
-  pound_main();
-  pnt_spaces(TWO);
+//  pound_main ();
+//  pnt_spaces (TWO);
+
+  running_main ();
+  pnt_spaces (TWO);
 
   return true;
 }
