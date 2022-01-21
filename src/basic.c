@@ -5,6 +5,9 @@
  *      Author: miga
  */
 
+#include "../include/convert_day.h"
+#include "../include/greater_ten.h"
+#include "../include/convert_time.h"
 #include "../include/running.h"
 #include "../include/pound.h"
 #include "../include/sizeof.h"
@@ -222,8 +225,16 @@ main (void)
 //  pound_main ();
 //  pnt_spaces (TWO);
 
-  running_main ();
-  pnt_spaces (TWO);
+//  running_main ();
+//  pnt_spaces (TWO);
 
+//  convert_time_main ();
+//  pnt_spaces (TWO);
+
+//  greater_ten_main ();
+//  pnt_spaces (TWO);
+
+  convert_day_main ();
+  pnt_spaces (TWO);
   return true;
 }
