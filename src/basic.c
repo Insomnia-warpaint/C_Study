@@ -5,6 +5,7 @@
  *      Author: miga
  */
 
+#include "../include/convert_temperature.h"
 #include "../include/convert_day.h"
 #include "../include/greater_ten.h"
 #include "../include/convert_time.h"
@@ -234,7 +235,10 @@ main (void)
 //  greater_ten_main ();
 //  pnt_spaces (TWO);
 
-  convert_day_main ();
+//  convert_day_main ();
+//  pnt_spaces (TWO);
+
+  convert_temperature_main ();
   pnt_spaces (TWO);
   return true;
 }
