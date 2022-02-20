@@ -1,6 +1,7 @@
 	.file	"entry_info.c"
 	.text
 .Ltext0:
+	.file 0 "/home/insomnia/eclipse-workspace/c-basic" "src/entry_info.c"
 	.section	.rodata
 .LC0:
 	.string	"What's youre name:"
@@ -144,7 +145,7 @@ entry_info_main:
 	.uleb128 0x8
 	.long	.LASF14
 	.byte	0x2
-	.value	0x14c
+	.value	0x164
 	.byte	0xc
 	.long	0x58
 	.long	0x8a
@@ -158,7 +159,7 @@ entry_info_main:
 	.uleb128 0xa
 	.long	.LASF15
 	.byte	0x2
-	.value	0x19d
+	.value	0x1b5
 	.byte	0xc
 	.long	.LASF16
 	.long	0x58
@@ -406,14 +407,11 @@ entry_info_main:
 	.quad	0
 	.section	.debug_line,"",@progbits
 .Ldebug_line0:
-	.file 0 "/home/insomnia/Code/c-basic" "src/entry_info.c"
 	.section	.debug_str,"MS",@progbits,1
 .LASF15:
 	.string	"scanf"
 .LASF3:
 	.string	"unsigned int"
-.LASF13:
-	.string	"GNU C11 11.1.0 -mtune=generic -march=x86-64 -g -std=c11"
 .LASF2:
 	.string	"long unsigned int"
 .LASF10:
@@ -428,6 +426,8 @@ entry_info_main:
 	.string	"height"
 .LASF8:
 	.string	"long int"
+.LASF13:
+	.string	"GNU C11 11.2.0 -mtune=generic -march=x86-64 -g -std=c11"
 .LASF17:
 	.string	"entry_info_main"
 .LASF5:
@@ -444,6 +444,6 @@ entry_info_main:
 .LASF0:
 	.string	"src/entry_info.c"
 .LASF1:
-	.string	"/home/insomnia/Code/c-basic"
-	.ident	"GCC: (GNU) 11.1.0"
+	.string	"/home/insomnia/eclipse-workspace/c-basic"
+	.ident	"GCC: (GNU) 11.2.0"
 	.section	.note.GNU-stack,"",@progbits

@@ -1,5 +1,5 @@
 # 0 "src/talkback.c"
-# 1 "/home/insomnia/Code/c-basic//"
+# 1 "/home/insomnia/eclipse-workspace/c-basic//"
 # 0 "<built-in>"
 # 0 "<command-line>"
 # 1 "/usr/include/stdc-predef.h" 1 3 4
@@ -19,20 +19,31 @@
 # 1 "/usr/include/bits/libc-header-start.h" 1 3 4
 # 33 "/usr/include/bits/libc-header-start.h" 3 4
 # 1 "/usr/include/features.h" 1 3 4
-# 473 "/usr/include/features.h" 3 4
-# 1 "/usr/include/sys/cdefs.h" 1 3 4
-# 462 "/usr/include/sys/cdefs.h" 3 4
+# 392 "/usr/include/features.h" 3 4
+# 1 "/usr/include/features-time64.h" 1 3 4
+# 20 "/usr/include/features-time64.h" 3 4
 # 1 "/usr/include/bits/wordsize.h" 1 3 4
-# 463 "/usr/include/sys/cdefs.h" 2 3 4
+# 21 "/usr/include/features-time64.h" 2 3 4
+# 1 "/usr/include/bits/timesize.h" 1 3 4
+# 19 "/usr/include/bits/timesize.h" 3 4
+# 1 "/usr/include/bits/wordsize.h" 1 3 4
+# 20 "/usr/include/bits/timesize.h" 2 3 4
+# 22 "/usr/include/features-time64.h" 2 3 4
+# 393 "/usr/include/features.h" 2 3 4
+# 490 "/usr/include/features.h" 3 4
+# 1 "/usr/include/sys/cdefs.h" 1 3 4
+# 559 "/usr/include/sys/cdefs.h" 3 4
+# 1 "/usr/include/bits/wordsize.h" 1 3 4
+# 560 "/usr/include/sys/cdefs.h" 2 3 4
 # 1 "/usr/include/bits/long-double.h" 1 3 4
-# 464 "/usr/include/sys/cdefs.h" 2 3 4
-# 474 "/usr/include/features.h" 2 3 4
-# 497 "/usr/include/features.h" 3 4
+# 561 "/usr/include/sys/cdefs.h" 2 3 4
+# 491 "/usr/include/features.h" 2 3 4
+# 514 "/usr/include/features.h" 3 4
 # 1 "/usr/include/gnu/stubs.h" 1 3 4
 # 10 "/usr/include/gnu/stubs.h" 3 4
 # 1 "/usr/include/gnu/stubs-64.h" 1 3 4
 # 11 "/usr/include/gnu/stubs.h" 2 3 4
-# 498 "/usr/include/features.h" 2 3 4
+# 515 "/usr/include/features.h" 2 3 4
 # 34 "/usr/include/bits/libc-header-start.h" 2 3 4
 # 27 "/usr/include/string.h" 2 3 4
 
@@ -41,10 +52,10 @@
 
 
 
-# 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/stddef.h" 1 3 4
-# 209 "/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/stddef.h" 3 4
+# 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include/stddef.h" 1 3 4
+# 209 "/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include/stddef.h" 3 4
 
-# 209 "/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/stddef.h" 3 4
+# 209 "/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include/stddef.h" 3 4
 typedef long unsigned int size_t;
 # 34 "/usr/include/string.h" 2 3 4
 # 43 "/usr/include/string.h" 3 4
@@ -60,10 +71,13 @@ extern void *memset (void *__s, int __c, size_t __n) __attribute__ ((__nothrow__
 
 extern int memcmp (const void *__s1, const void *__s2, size_t __n)
      __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1, 2)));
-# 91 "/usr/include/string.h" 3 4
+# 80 "/usr/include/string.h" 3 4
+extern int __memcmpeq (const void *__s1, const void *__s2, size_t __n)
+     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1, 2)));
+# 107 "/usr/include/string.h" 3 4
 extern void *memchr (const void *__s, int __c, size_t __n)
       __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1)));
-# 125 "/usr/include/string.h" 3 4
+# 141 "/usr/include/string.h" 3 4
 extern char *strcpy (char *__restrict __dest, const char *__restrict __src)
      __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1, 2)));
 
@@ -92,23 +106,23 @@ extern int strcoll (const char *__s1, const char *__s2)
 extern size_t strxfrm (char *__restrict __dest,
          const char *__restrict __src, size_t __n)
     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (2))) __attribute__ ((__access__ (__write_only__, 1, 3)));
-# 230 "/usr/include/string.h" 3 4
+# 246 "/usr/include/string.h" 3 4
 extern char *strchr (const char *__s, int __c)
      __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1)));
-# 257 "/usr/include/string.h" 3 4
+# 273 "/usr/include/string.h" 3 4
 extern char *strrchr (const char *__s, int __c)
      __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1)));
-# 277 "/usr/include/string.h" 3 4
+# 293 "/usr/include/string.h" 3 4
 extern size_t strcspn (const char *__s, const char *__reject)
      __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1, 2)));
 
 
 extern size_t strspn (const char *__s, const char *__accept)
      __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1, 2)));
-# 307 "/usr/include/string.h" 3 4
+# 323 "/usr/include/string.h" 3 4
 extern char *strpbrk (const char *__s, const char *__accept)
      __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1, 2)));
-# 334 "/usr/include/string.h" 3 4
+# 350 "/usr/include/string.h" 3 4
 extern char *strstr (const char *__haystack, const char *__needle)
      __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1, 2)));
 
@@ -124,12 +138,12 @@ extern char *__strtok_r (char *__restrict __s,
     const char *__restrict __delim,
     char **__restrict __save_ptr)
      __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (2, 3)));
-# 391 "/usr/include/string.h" 3 4
+# 407 "/usr/include/string.h" 3 4
 extern size_t strlen (const char *__s)
      __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1)));
-# 403 "/usr/include/string.h" 3 4
+# 419 "/usr/include/string.h" 3 4
 extern char *strerror (int __errnum) __attribute__ ((__nothrow__ , __leaf__));
-# 523 "/usr/include/string.h" 3 4
+# 539 "/usr/include/string.h" 3 4
 
 # 10 "src/talkback.c" 2
 # 1 "/usr/include/stdio.h" 1 3 4
@@ -141,12 +155,12 @@ extern char *strerror (int __errnum) __attribute__ ((__nothrow__ , __leaf__));
 
 
 
-# 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/stddef.h" 1 3 4
+# 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include/stddef.h" 1 3 4
 # 34 "/usr/include/stdio.h" 2 3 4
 
 
-# 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/stdarg.h" 1 3 4
-# 40 "/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/stdarg.h" 3 4
+# 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include/stdarg.h" 1 3 4
+# 40 "/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include/stdarg.h" 3 4
 typedef __builtin_va_list __gnuc_va_list;
 # 37 "/usr/include/stdio.h" 2 3 4
 
@@ -155,6 +169,9 @@ typedef __builtin_va_list __gnuc_va_list;
 # 1 "/usr/include/bits/wordsize.h" 1 3 4
 # 28 "/usr/include/bits/types.h" 2 3 4
 # 1 "/usr/include/bits/timesize.h" 1 3 4
+# 19 "/usr/include/bits/timesize.h" 3 4
+# 1 "/usr/include/bits/wordsize.h" 1 3 4
+# 20 "/usr/include/bits/timesize.h" 2 3 4
 # 29 "/usr/include/bits/types.h" 2 3 4
 
 
@@ -404,9 +421,7 @@ typedef __fpos_t fpos_t;
 # 133 "/usr/include/stdio.h" 3 4
 # 1 "/usr/include/bits/stdio_lim.h" 1 3 4
 # 134 "/usr/include/stdio.h" 2 3 4
-
-
-
+# 143 "/usr/include/stdio.h" 3 4
 extern FILE *stdin;
 extern FILE *stdout;
 extern FILE *stderr;
@@ -419,20 +434,19 @@ extern FILE *stderr;
 extern int remove (const char *__filename) __attribute__ ((__nothrow__ , __leaf__));
 
 extern int rename (const char *__old, const char *__new) __attribute__ ((__nothrow__ , __leaf__));
-# 173 "/usr/include/stdio.h" 3 4
-extern FILE *tmpfile (void) ;
-# 187 "/usr/include/stdio.h" 3 4
-extern char *tmpnam (char *__s) __attribute__ ((__nothrow__ , __leaf__)) ;
-# 213 "/usr/include/stdio.h" 3 4
+# 178 "/usr/include/stdio.h" 3 4
 extern int fclose (FILE *__stream);
-
-
-
-
+# 188 "/usr/include/stdio.h" 3 4
+extern FILE *tmpfile (void)
+  __attribute__ ((__malloc__)) __attribute__ ((__malloc__ (fclose, 1))) ;
+# 205 "/usr/include/stdio.h" 3 4
+extern char *tmpnam (char[20]) __attribute__ ((__nothrow__ , __leaf__)) ;
+# 230 "/usr/include/stdio.h" 3 4
 extern int fflush (FILE *__stream);
-# 246 "/usr/include/stdio.h" 3 4
+# 258 "/usr/include/stdio.h" 3 4
 extern FILE *fopen (const char *__restrict __filename,
-      const char *__restrict __modes) ;
+      const char *__restrict __modes)
+  __attribute__ ((__malloc__)) __attribute__ ((__malloc__ (fclose, 1))) ;
 
 
 
@@ -440,14 +454,14 @@ extern FILE *fopen (const char *__restrict __filename,
 extern FILE *freopen (const char *__restrict __filename,
         const char *__restrict __modes,
         FILE *__restrict __stream) ;
-# 304 "/usr/include/stdio.h" 3 4
+# 328 "/usr/include/stdio.h" 3 4
 extern void setbuf (FILE *__restrict __stream, char *__restrict __buf) __attribute__ ((__nothrow__ , __leaf__));
 
 
 
 extern int setvbuf (FILE *__restrict __stream, char *__restrict __buf,
       int __modes, size_t __n) __attribute__ ((__nothrow__ , __leaf__));
-# 326 "/usr/include/stdio.h" 3 4
+# 350 "/usr/include/stdio.h" 3 4
 extern int fprintf (FILE *__restrict __stream,
       const char *__restrict __format, ...);
 
@@ -483,7 +497,7 @@ extern int snprintf (char *__restrict __s, size_t __maxlen,
 extern int vsnprintf (char *__restrict __s, size_t __maxlen,
         const char *__restrict __format, __gnuc_va_list __arg)
      __attribute__ ((__nothrow__)) __attribute__ ((__format__ (__printf__, 3, 0)));
-# 391 "/usr/include/stdio.h" 3 4
+# 415 "/usr/include/stdio.h" 3 4
 extern int fscanf (FILE *__restrict __stream,
      const char *__restrict __format, ...) ;
 
@@ -506,7 +520,7 @@ extern int sscanf (const char *__restrict __s,
 # 1 "/usr/include/bits/long-double.h" 1 3 4
 # 25 "/usr/include/bits/floatn-common.h" 2 3 4
 # 120 "/usr/include/bits/floatn.h" 2 3 4
-# 407 "/usr/include/stdio.h" 2 3 4
+# 431 "/usr/include/stdio.h" 2 3 4
 
 
 
@@ -518,7 +532,7 @@ extern int scanf (const char *__restrict __format, ...) __asm__ ("" "__isoc99_sc
 extern int sscanf (const char *__restrict __s, const char *__restrict __format, ...) __asm__ ("" "__isoc99_sscanf") __attribute__ ((__nothrow__ , __leaf__))
 
                       ;
-# 435 "/usr/include/stdio.h" 3 4
+# 459 "/usr/include/stdio.h" 3 4
 extern int vfscanf (FILE *__restrict __s, const char *__restrict __format,
       __gnuc_va_list __arg)
      __attribute__ ((__format__ (__scanf__, 2, 0))) ;
@@ -552,7 +566,7 @@ extern int vsscanf (const char *__restrict __s, const char *__restrict __format,
 
 
      __attribute__ ((__format__ (__scanf__, 2, 0)));
-# 489 "/usr/include/stdio.h" 3 4
+# 513 "/usr/include/stdio.h" 3 4
 extern int fgetc (FILE *__stream);
 extern int getc (FILE *__stream);
 
@@ -561,7 +575,7 @@ extern int getc (FILE *__stream);
 
 
 extern int getchar (void);
-# 525 "/usr/include/stdio.h" 3 4
+# 549 "/usr/include/stdio.h" 3 4
 extern int fputc (int __c, FILE *__stream);
 extern int putc (int __c, FILE *__stream);
 
@@ -570,10 +584,10 @@ extern int putc (int __c, FILE *__stream);
 
 
 extern int putchar (int __c);
-# 568 "/usr/include/stdio.h" 3 4
+# 592 "/usr/include/stdio.h" 3 4
 extern char *fgets (char *__restrict __s, int __n, FILE *__restrict __stream)
      __attribute__ ((__access__ (__write_only__, 1, 2)));
-# 631 "/usr/include/stdio.h" 3 4
+# 655 "/usr/include/stdio.h" 3 4
 extern int fputs (const char *__restrict __s, FILE *__restrict __stream);
 
 
@@ -602,7 +616,7 @@ extern size_t fread (void *__restrict __ptr, size_t __size,
 
 extern size_t fwrite (const void *__restrict __ptr, size_t __size,
         size_t __n, FILE *__restrict __s);
-# 689 "/usr/include/stdio.h" 3 4
+# 713 "/usr/include/stdio.h" 3 4
 extern int fseek (FILE *__stream, long int __off, int __whence);
 
 
@@ -614,25 +628,25 @@ extern long int ftell (FILE *__stream) ;
 
 
 extern void rewind (FILE *__stream);
-# 736 "/usr/include/stdio.h" 3 4
+# 760 "/usr/include/stdio.h" 3 4
 extern int fgetpos (FILE *__restrict __stream, fpos_t *__restrict __pos);
 
 
 
 
 extern int fsetpos (FILE *__stream, const fpos_t *__pos);
-# 762 "/usr/include/stdio.h" 3 4
+# 786 "/usr/include/stdio.h" 3 4
 extern void clearerr (FILE *__stream) __attribute__ ((__nothrow__ , __leaf__));
 
 extern int feof (FILE *__stream) __attribute__ ((__nothrow__ , __leaf__)) ;
 
 extern int ferror (FILE *__stream) __attribute__ ((__nothrow__ , __leaf__)) ;
-# 780 "/usr/include/stdio.h" 3 4
+# 804 "/usr/include/stdio.h" 3 4
 extern void perror (const char *__s);
-# 857 "/usr/include/stdio.h" 3 4
+# 885 "/usr/include/stdio.h" 3 4
 extern int __uflow (FILE *);
 extern int __overflow (FILE *, int);
-# 874 "/usr/include/stdio.h" 3 4
+# 902 "/usr/include/stdio.h" 3 4
 
 # 11 "src/talkback.c" 2
 

@@ -1,6 +1,7 @@
 	.file	"rules.c"
 	.text
 .Ltext0:
+	.file 0 "/home/insomnia/eclipse-workspace/c-basic" "src/rules.c"
 	.section	.rodata
 .LC0:
 	.string	"top = %d, score = %d\n"
@@ -98,7 +99,7 @@ rules_main:
 	.uleb128 0x5
 	.long	.LASF12
 	.byte	0x2
-	.value	0x14c
+	.value	0x164
 	.byte	0xc
 	.long	0x58
 	.long	0x8a
@@ -309,8 +310,9 @@ rules_main:
 	.quad	0
 	.section	.debug_line,"",@progbits
 .Ldebug_line0:
-	.file 0 "/home/insomnia/Code/c-basic" "src/rules.c"
 	.section	.debug_str,"MS",@progbits,1
+.LASF11:
+	.string	"GNU C11 11.2.0 -mtune=generic -march=x86-64 -g -std=c11"
 .LASF10:
 	.string	"score"
 .LASF3:
@@ -323,8 +325,6 @@ rules_main:
 	.string	"short unsigned int"
 .LASF7:
 	.string	"short int"
-.LASF11:
-	.string	"GNU C11 11.1.0 -mtune=generic -march=x86-64 -g -std=c11"
 .LASF4:
 	.string	"unsigned char"
 .LASF8:
@@ -339,6 +339,6 @@ rules_main:
 .LASF0:
 	.string	"src/rules.c"
 .LASF1:
-	.string	"/home/insomnia/Code/c-basic"
-	.ident	"GCC: (GNU) 11.1.0"
+	.string	"/home/insomnia/eclipse-workspace/c-basic"
+	.ident	"GCC: (GNU) 11.2.0"
 	.section	.note.GNU-stack,"",@progbits

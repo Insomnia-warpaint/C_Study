@@ -1,6 +1,7 @@
 	.file	"golf.c"
 	.text
 .Ltext0:
+	.file 0 "/home/insomnia/eclipse-workspace/c-basic" "src/golf.c"
 	.section	.rodata
 	.align 8
 .LC0:
@@ -110,7 +111,7 @@ golf_main:
 	.uleb128 0x6
 	.long	.LASF14
 	.byte	0x2
-	.value	0x14c
+	.value	0x164
 	.byte	0xc
 	.long	0x58
 	.long	0x8a
@@ -311,8 +312,9 @@ golf_main:
 	.quad	0
 	.section	.debug_line,"",@progbits
 .Ldebug_line0:
-	.file 0 "/home/insomnia/Code/c-basic" "src/golf.c"
 	.section	.debug_str,"MS",@progbits,1
+.LASF13:
+	.string	"GNU C11 11.2.0 -mtune=generic -march=x86-64 -g -std=c11"
 .LASF3:
 	.string	"unsigned int"
 .LASF2:
@@ -327,8 +329,6 @@ golf_main:
 	.string	"short int"
 .LASF11:
 	.string	"tarzan"
-.LASF13:
-	.string	"GNU C11 11.1.0 -mtune=generic -march=x86-64 -g -std=c11"
 .LASF4:
 	.string	"unsigned char"
 .LASF8:
@@ -343,8 +343,8 @@ golf_main:
 	.string	"printf"
 	.section	.debug_line_str,"MS",@progbits,1
 .LASF1:
-	.string	"/home/insomnia/Code/c-basic"
+	.string	"/home/insomnia/eclipse-workspace/c-basic"
 .LASF0:
 	.string	"src/golf.c"
-	.ident	"GCC: (GNU) 11.1.0"
+	.ident	"GCC: (GNU) 11.2.0"
 	.section	.note.GNU-stack,"",@progbits

@@ -1,6 +1,7 @@
 	.file	"conv_quart_to_molecule.c"
 	.text
 .Ltext0:
+	.file 0 "/home/insomnia/eclipse-workspace/c-basic" "src/conv_quart_to_molecule.c"
 	.section	.rodata
 .LC0:
 	.string	"Please Enter quart number:"
@@ -133,7 +134,7 @@ conv_quart_to_mlc:
 	.uleb128 0x8
 	.long	.LASF14
 	.byte	0x2
-	.value	0x14c
+	.value	0x164
 	.byte	0xc
 	.long	0x58
 	.long	0x8a
@@ -147,7 +148,7 @@ conv_quart_to_mlc:
 	.uleb128 0xa
 	.long	.LASF15
 	.byte	0x2
-	.value	0x19d
+	.value	0x1b5
 	.byte	0xc
 	.long	.LASF16
 	.long	0x58
@@ -370,7 +371,6 @@ conv_quart_to_mlc:
 	.quad	0
 	.section	.debug_line,"",@progbits
 .Ldebug_line0:
-	.file 0 "/home/insomnia/Code/c-basic" "src/conv_quart_to_molecule.c"
 	.section	.debug_str,"MS",@progbits,1
 .LASF15:
 	.string	"scanf"
@@ -378,8 +378,6 @@ conv_quart_to_mlc:
 	.string	"quality"
 .LASF3:
 	.string	"unsigned int"
-.LASF13:
-	.string	"GNU C11 11.1.0 -mtune=generic -march=x86-64 -g -std=c11"
 .LASF17:
 	.string	"conv_quart_to_mlc"
 .LASF2:
@@ -394,6 +392,8 @@ conv_quart_to_mlc:
 	.string	"char"
 .LASF8:
 	.string	"long int"
+.LASF13:
+	.string	"GNU C11 11.2.0 -mtune=generic -march=x86-64 -g -std=c11"
 .LASF12:
 	.string	"double"
 .LASF5:
@@ -406,8 +406,8 @@ conv_quart_to_mlc:
 	.string	"signed char"
 	.section	.debug_line_str,"MS",@progbits,1
 .LASF1:
-	.string	"/home/insomnia/Code/c-basic"
+	.string	"/home/insomnia/eclipse-workspace/c-basic"
 .LASF0:
 	.string	"src/conv_quart_to_molecule.c"
-	.ident	"GCC: (GNU) 11.1.0"
+	.ident	"GCC: (GNU) 11.2.0"
 	.section	.note.GNU-stack,"",@progbits

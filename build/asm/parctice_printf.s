@@ -1,6 +1,7 @@
 	.file	"parctice_printf.c"
 	.text
 .Ltext0:
+	.file 0 "/home/insomnia/eclipse-workspace/c-basic" "src/parctice_printf.c"
 	.globl	parctice_printf_main
 	.type	parctice_printf_main, @function
 parctice_printf_main:
@@ -608,7 +609,7 @@ print_en_name:
 	.uleb128 0xc
 	.long	.LASF26
 	.byte	0x2
-	.value	0x14c
+	.value	0x164
 	.byte	0xc
 	.long	0x58
 	.long	0x8f
@@ -1114,7 +1115,6 @@ print_en_name:
 	.quad	0
 	.section	.debug_line,"",@progbits
 .Ldebug_line0:
-	.file 0 "/home/insomnia/Code/c-basic" "src/parctice_printf.c"
 	.section	.debug_str,"MS",@progbits,1
 .LASF12:
 	.string	"sort"
@@ -1138,6 +1138,8 @@ print_en_name:
 	.string	"my_name"
 .LASF4:
 	.string	"unsigned char"
+.LASF25:
+	.string	"GNU C11 11.2.0 -mtune=generic -march=x86-64 -g -std=c11"
 .LASF6:
 	.string	"signed char"
 .LASF3:
@@ -1156,8 +1158,6 @@ print_en_name:
 	.string	"jolly"
 .LASF22:
 	.string	"count"
-.LASF25:
-	.string	"GNU C11 11.1.0 -mtune=generic -march=x86-64 -g -std=c11"
 .LASF27:
 	.string	"parctice_printf_main"
 .LASF10:
@@ -1172,6 +1172,6 @@ print_en_name:
 .LASF0:
 	.string	"src/parctice_printf.c"
 .LASF1:
-	.string	"/home/insomnia/Code/c-basic"
-	.ident	"GCC: (GNU) 11.1.0"
+	.string	"/home/insomnia/eclipse-workspace/c-basic"
+	.ident	"GCC: (GNU) 11.2.0"
 	.section	.note.GNU-stack,"",@progbits

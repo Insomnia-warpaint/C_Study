@@ -1,6 +1,7 @@
 	.file	"shoes.c"
 	.text
 .Ltext0:
+	.file 0 "/home/insomnia/eclipse-workspace/c-basic" "src/shoes.c"
 	.section	.rodata
 	.align 8
 .LC1:
@@ -156,7 +157,7 @@ shoes_main:
 	.uleb128 0x6
 	.long	.LASF15
 	.byte	0x2
-	.value	0x14c
+	.value	0x164
 	.byte	0xc
 	.long	0x58
 	.long	0x8a
@@ -366,14 +367,11 @@ shoes_main:
 	.quad	0
 	.section	.debug_line,"",@progbits
 .Ldebug_line0:
-	.file 0 "/home/insomnia/Code/c-basic" "src/shoes.c"
 	.section	.debug_str,"MS",@progbits,1
 .LASF3:
 	.string	"unsigned int"
 .LASF16:
 	.string	"shoes_main"
-.LASF14:
-	.string	"GNU C11 11.1.0 -mtune=generic -march=x86-64 -g -std=c11"
 .LASF2:
 	.string	"long unsigned int"
 .LASF11:
@@ -384,6 +382,8 @@ shoes_main:
 	.string	"char"
 .LASF8:
 	.string	"long int"
+.LASF14:
+	.string	"GNU C11 11.2.0 -mtune=generic -march=x86-64 -g -std=c11"
 .LASF13:
 	.string	"double"
 .LASF12:
@@ -402,6 +402,6 @@ shoes_main:
 .LASF0:
 	.string	"src/shoes.c"
 .LASF1:
-	.string	"/home/insomnia/Code/c-basic"
-	.ident	"GCC: (GNU) 11.1.0"
+	.string	"/home/insomnia/eclipse-workspace/c-basic"
+	.ident	"GCC: (GNU) 11.2.0"
 	.section	.note.GNU-stack,"",@progbits

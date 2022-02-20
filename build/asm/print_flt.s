@@ -1,6 +1,7 @@
 	.file	"print_flt.c"
 	.text
 .Ltext0:
+	.file 0 "/home/insomnia/eclipse-workspace/c-basic" "src/print_flt.c"
 	.section	.rodata
 	.align 8
 .LC0:
@@ -135,7 +136,7 @@ print_flt_main:
 	.uleb128 0x7
 	.long	.LASF12
 	.byte	0x2
-	.value	0x14c
+	.value	0x164
 	.byte	0xc
 	.long	0x58
 	.long	0x8a
@@ -149,7 +150,7 @@ print_flt_main:
 	.uleb128 0x9
 	.long	.LASF13
 	.byte	0x2
-	.value	0x19d
+	.value	0x1b5
 	.byte	0xc
 	.long	.LASF14
 	.long	0x58
@@ -364,14 +365,11 @@ print_flt_main:
 	.quad	0
 	.section	.debug_line,"",@progbits
 .Ldebug_line0:
-	.file 0 "/home/insomnia/Code/c-basic" "src/print_flt.c"
 	.section	.debug_str,"MS",@progbits,1
 .LASF13:
 	.string	"scanf"
 .LASF3:
 	.string	"unsigned int"
-.LASF11:
-	.string	"GNU C11 11.1.0 -mtune=generic -march=x86-64 -g -std=c11"
 .LASF2:
 	.string	"long unsigned int"
 .LASF14:
@@ -382,6 +380,8 @@ print_flt_main:
 	.string	"char"
 .LASF8:
 	.string	"long int"
+.LASF11:
+	.string	"GNU C11 11.2.0 -mtune=generic -march=x86-64 -g -std=c11"
 .LASF10:
 	.string	"double"
 .LASF5:
@@ -398,6 +398,6 @@ print_flt_main:
 .LASF0:
 	.string	"src/print_flt.c"
 .LASF1:
-	.string	"/home/insomnia/Code/c-basic"
-	.ident	"GCC: (GNU) 11.1.0"
+	.string	"/home/insomnia/eclipse-workspace/c-basic"
+	.ident	"GCC: (GNU) 11.2.0"
 	.section	.note.GNU-stack,"",@progbits

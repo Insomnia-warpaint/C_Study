@@ -1,6 +1,7 @@
 	.file	"doub_flot_diff.c"
 	.text
 .Ltext0:
+	.file 0 "/home/insomnia/eclipse-workspace/c-basic" "src/doub_flot_diff.c"
 	.section	.rodata
 .LC2:
 	.string	"double val : %.6lf\n"
@@ -212,7 +213,7 @@ doub_flot_dif_main:
 	.uleb128 0x6
 	.long	.LASF13
 	.byte	0x2
-	.value	0x14c
+	.value	0x164
 	.byte	0xc
 	.long	0x58
 	.long	0x8a
@@ -416,7 +417,6 @@ doub_flot_dif_main:
 	.quad	0
 	.section	.debug_line,"",@progbits
 .Ldebug_line0:
-	.file 0 "/home/insomnia/Code/c-basic" "src/doub_flot_diff.c"
 	.section	.debug_str,"MS",@progbits,1
 .LASF14:
 	.string	"doub_flot_dif_main"
@@ -430,10 +430,10 @@ doub_flot_dif_main:
 	.string	"char"
 .LASF8:
 	.string	"long int"
+.LASF12:
+	.string	"GNU C11 11.2.0 -mtune=generic -march=x86-64 -g -std=c11"
 .LASF10:
 	.string	"double"
-.LASF12:
-	.string	"GNU C11 11.1.0 -mtune=generic -march=x86-64 -g -std=c11"
 .LASF5:
 	.string	"short unsigned int"
 .LASF13:
@@ -445,9 +445,9 @@ doub_flot_dif_main:
 .LASF6:
 	.string	"signed char"
 	.section	.debug_line_str,"MS",@progbits,1
-.LASF1:
-	.string	"/home/insomnia/Code/c-basic"
 .LASF0:
 	.string	"src/doub_flot_diff.c"
-	.ident	"GCC: (GNU) 11.1.0"
+.LASF1:
+	.string	"/home/insomnia/eclipse-workspace/c-basic"
+	.ident	"GCC: (GNU) 11.2.0"
 	.section	.note.GNU-stack,"",@progbits

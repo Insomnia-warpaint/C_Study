@@ -1,6 +1,7 @@
 	.file	"praises.c"
 	.text
 .Ltext0:
+	.file 0 "/home/insomnia/eclipse-workspace/c-basic" "src/praises.c"
 	.section	.rodata
 .LC0:
 	.string	"What's your name? "
@@ -96,7 +97,7 @@ praises_main:
 .Letext0:
 	.file 2 "/usr/include/string.h"
 	.file 3 "/usr/include/stdio.h"
-	.file 4 "/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/stddef.h"
+	.file 4 "/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include/stddef.h"
 	.section	.debug_info,"",@progbits
 .Ldebug_info0:
 	.long	0x10a
@@ -159,7 +160,7 @@ praises_main:
 	.uleb128 0x3
 	.long	.LASF10
 	.byte	0x2
-	.value	0x187
+	.value	0x197
 	.byte	0xf
 	.long	0x2e
 	.long	0x95
@@ -172,7 +173,7 @@ praises_main:
 	.uleb128 0xa
 	.long	.LASF14
 	.byte	0x3
-	.value	0x19d
+	.value	0x1b5
 	.byte	0xc
 	.long	.LASF15
 	.long	0x64
@@ -184,7 +185,7 @@ praises_main:
 	.uleb128 0x3
 	.long	.LASF11
 	.byte	0x3
-	.value	0x14c
+	.value	0x164
 	.byte	0xc
 	.long	0x64
 	.long	0xcf
@@ -431,14 +432,11 @@ praises_main:
 	.quad	0
 	.section	.debug_line,"",@progbits
 .Ldebug_line0:
-	.file 0 "/home/insomnia/Code/c-basic" "src/praises.c"
 	.section	.debug_str,"MS",@progbits,1
 .LASF14:
 	.string	"scanf"
 .LASF13:
 	.string	"size_t"
-.LASF12:
-	.string	"GNU C11 11.1.0 -mtune=generic -march=x86-64 -g -std=c11"
 .LASF2:
 	.string	"long unsigned int"
 .LASF17:
@@ -451,6 +449,8 @@ praises_main:
 	.string	"char"
 .LASF8:
 	.string	"long int"
+.LASF12:
+	.string	"GNU C11 11.2.0 -mtune=generic -march=x86-64 -g -std=c11"
 .LASF10:
 	.string	"strlen"
 .LASF5:
@@ -469,6 +469,6 @@ praises_main:
 .LASF0:
 	.string	"src/praises.c"
 .LASF1:
-	.string	"/home/insomnia/Code/c-basic"
-	.ident	"GCC: (GNU) 11.1.0"
+	.string	"/home/insomnia/eclipse-workspace/c-basic"
+	.ident	"GCC: (GNU) 11.2.0"
 	.section	.note.GNU-stack,"",@progbits

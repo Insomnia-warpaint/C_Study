@@ -1,6 +1,7 @@
 	.file	"running.c"
 	.text
 .Ltext0:
+	.file 0 "/home/insomnia/eclipse-workspace/c-basic" "src/running.c"
 	.globl	S_PER_M
 	.section	.rodata
 	.align 4
@@ -422,7 +423,7 @@ running_main:
 	.uleb128 0xc
 	.long	.LASF25
 	.byte	0x2
-	.value	0x14c
+	.value	0x164
 	.byte	0xc
 	.long	0x58
 	.long	0x16e
@@ -435,7 +436,7 @@ running_main:
 	.uleb128 0xd
 	.long	.LASF26
 	.byte	0x2
-	.value	0x19d
+	.value	0x1b5
 	.byte	0xc
 	.long	.LASF27
 	.long	0x58
@@ -723,10 +724,7 @@ running_main:
 	.quad	0
 	.section	.debug_line,"",@progbits
 .Ldebug_line0:
-	.file 0 "/home/insomnia/Code/c-basic" "src/running.c"
 	.section	.debug_str,"MS",@progbits,1
-.LASF23:
-	.string	"GNU C11 11.1.0 -mtune=generic -march=x86-64 -g -std=c11"
 .LASF17:
 	.string	"rate"
 .LASF27:
@@ -739,6 +737,8 @@ running_main:
 	.string	"long unsigned int"
 .LASF5:
 	.string	"short unsigned int"
+.LASF23:
+	.string	"GNU C11 11.2.0 -mtune=generic -march=x86-64 -g -std=c11"
 .LASF13:
 	.string	"M_PER_K"
 .LASF24:
@@ -781,8 +781,8 @@ running_main:
 	.string	"runn"
 	.section	.debug_line_str,"MS",@progbits,1
 .LASF1:
-	.string	"/home/insomnia/Code/c-basic"
+	.string	"/home/insomnia/eclipse-workspace/c-basic"
 .LASF0:
 	.string	"src/running.c"
-	.ident	"GCC: (GNU) 11.1.0"
+	.ident	"GCC: (GNU) 11.2.0"
 	.section	.note.GNU-stack,"",@progbits

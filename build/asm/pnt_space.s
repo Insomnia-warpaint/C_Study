@@ -1,6 +1,7 @@
 	.file	"pnt_space.c"
 	.text
 .Ltext0:
+	.file 0 "/home/insomnia/eclipse-workspace/c-basic" "src/pnt_space.c"
 	.globl	pnt_space
 	.type	pnt_space, @function
 pnt_space:
@@ -337,8 +338,9 @@ pnt_spaces:
 	.quad	0
 	.section	.debug_line,"",@progbits
 .Ldebug_line0:
-	.file 0 "/home/insomnia/Code/c-basic" "src/pnt_space.c"
 	.section	.debug_str,"MS",@progbits,1
+.LASF11:
+	.string	"GNU C11 11.2.0 -mtune=generic -march=x86-64 -g -std=c11"
 .LASF3:
 	.string	"unsigned int"
 .LASF2:
@@ -349,8 +351,6 @@ pnt_spaces:
 	.string	"signed char"
 .LASF7:
 	.string	"short int"
-.LASF11:
-	.string	"GNU C11 11.1.0 -mtune=generic -march=x86-64 -g -std=c11"
 .LASF4:
 	.string	"unsigned char"
 .LASF8:
@@ -367,8 +367,8 @@ pnt_spaces:
 	.string	"short unsigned int"
 	.section	.debug_line_str,"MS",@progbits,1
 .LASF1:
-	.string	"/home/insomnia/Code/c-basic"
+	.string	"/home/insomnia/eclipse-workspace/c-basic"
 .LASF0:
 	.string	"src/pnt_space.c"
-	.ident	"GCC: (GNU) 11.1.0"
+	.ident	"GCC: (GNU) 11.2.0"
 	.section	.note.GNU-stack,"",@progbits

@@ -1,26 +1,27 @@
 	.file	"basic.c"
 	.text
 .Ltext0:
+	.file 0 "/home/insomnia/eclipse-workspace/c-basic" "src/basic.c"
 	.globl	main
 	.type	main, @function
 main:
 .LFB0:
 	.file 1 "src/basic.c"
-	.loc 1 63 1
+	.loc 1 72 1
 	.cfi_startproc
 	pushq	%rbp
 	.cfi_def_cfa_offset 16
 	.cfi_offset 6, -16
 	movq	%rsp, %rbp
 	.cfi_def_cfa_register 6
-	.loc 1 225 3
-	call	running_main@PLT
-	.loc 1 226 3
+	.loc 1 262 2
+	call	trunth_main@PLT
+	.loc 1 263 2
 	movl	$2, %edi
 	call	pnt_spaces@PLT
-	.loc 1 228 10
+	.loc 1 265 10
 	movl	$0, %eax
-	.loc 1 229 1
+	.loc 1 266 1
 	popq	%rbp
 	.cfi_def_cfa 7, 8
 	ret
@@ -29,7 +30,7 @@ main:
 	.size	main, .-main
 .Letext0:
 	.file 2 "src/../include/pnt_space.h"
-	.file 3 "src/../include/running.h"
+	.file 3 "src/../include/trunth.h"
 	.section	.debug_info,"",@progbits
 .Ldebug_info0:
 	.long	0xaa
@@ -94,13 +95,13 @@ main:
 	.uleb128 0x6
 	.long	.LASF12
 	.byte	0x3
-	.byte	0xc
+	.byte	0x6
 	.byte	0x1
 	.long	0x58
 	.uleb128 0x7
 	.long	.LASF13
 	.byte	0x1
-	.byte	0x3e
+	.byte	0x47
 	.byte	0x1
 	.long	0x58
 	.quad	.LFB0
@@ -244,36 +245,35 @@ main:
 	.quad	0
 	.section	.debug_line,"",@progbits
 .Ldebug_line0:
-	.file 0 "/home/insomnia/Code/c-basic" "src/basic.c"
 	.section	.debug_str,"MS",@progbits,1
+.LASF10:
+	.string	"GNU C11 11.2.0 -mtune=generic -march=x86-64 -g -std=c11"
 .LASF3:
 	.string	"unsigned int"
 .LASF2:
 	.string	"long unsigned int"
-.LASF12:
-	.string	"running_main"
 .LASF6:
 	.string	"signed char"
 .LASF5:
 	.string	"short unsigned int"
 .LASF7:
 	.string	"short int"
-.LASF10:
-	.string	"GNU C11 11.1.0 -mtune=generic -march=x86-64 -g -std=c11"
 .LASF4:
 	.string	"unsigned char"
 .LASF8:
 	.string	"long int"
 .LASF13:
 	.string	"main"
+.LASF12:
+	.string	"trunth_main"
 .LASF11:
 	.string	"pnt_spaces"
 .LASF9:
 	.string	"char"
 	.section	.debug_line_str,"MS",@progbits,1
 .LASF1:
-	.string	"/home/insomnia/Code/c-basic"
+	.string	"/home/insomnia/eclipse-workspace/c-basic"
 .LASF0:
 	.string	"src/basic.c"
-	.ident	"GCC: (GNU) 11.1.0"
+	.ident	"GCC: (GNU) 11.2.0"
 	.section	.note.GNU-stack,"",@progbits

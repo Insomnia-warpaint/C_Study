@@ -1,6 +1,7 @@
 	.file	"toobig.c"
 	.text
 .Ltext0:
+	.file 0 "/home/insomnia/eclipse-workspace/c-basic" "src/toobig.c"
 	.section	.rodata
 .LC0:
 	.string	"%11d %11d %11d\n"
@@ -111,7 +112,7 @@ toobig_main:
 	.uleb128 0x6
 	.long	.LASF11
 	.byte	0x2
-	.value	0x14c
+	.value	0x164
 	.byte	0xc
 	.long	0x58
 	.long	0x8a
@@ -304,7 +305,6 @@ toobig_main:
 	.quad	0
 	.section	.debug_line,"",@progbits
 .Ldebug_line0:
-	.file 0 "/home/insomnia/Code/c-basic" "src/toobig.c"
 	.section	.debug_str,"MS",@progbits,1
 .LASF12:
 	.string	"toobig_main"
@@ -316,12 +316,12 @@ toobig_main:
 	.string	"signed char"
 .LASF5:
 	.string	"short unsigned int"
+.LASF10:
+	.string	"GNU C11 11.2.0 -mtune=generic -march=x86-64 -g -std=c11"
 .LASF7:
 	.string	"short int"
 .LASF9:
 	.string	"char"
-.LASF10:
-	.string	"GNU C11 11.1.0 -mtune=generic -march=x86-64 -g -std=c11"
 .LASF4:
 	.string	"unsigned char"
 .LASF8:
@@ -332,6 +332,6 @@ toobig_main:
 .LASF0:
 	.string	"src/toobig.c"
 .LASF1:
-	.string	"/home/insomnia/Code/c-basic"
-	.ident	"GCC: (GNU) 11.1.0"
+	.string	"/home/insomnia/eclipse-workspace/c-basic"
+	.ident	"GCC: (GNU) 11.2.0"
 	.section	.note.GNU-stack,"",@progbits

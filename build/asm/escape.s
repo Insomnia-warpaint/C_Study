@@ -1,6 +1,7 @@
 	.file	"escape.c"
 	.text
 .Ltext0:
+	.file 0 "/home/insomnia/eclipse-workspace/c-basic" "src/escape.c"
 	.section	.rodata
 	.align 8
 .LC0:
@@ -147,7 +148,7 @@ escape_main:
 	.uleb128 0x7
 	.long	.LASF12
 	.byte	0x2
-	.value	0x19d
+	.value	0x1b5
 	.byte	0xc
 	.long	.LASF13
 	.long	0x58
@@ -162,7 +163,7 @@ escape_main:
 	.uleb128 0x9
 	.long	.LASF14
 	.byte	0x2
-	.value	0x14c
+	.value	0x164
 	.byte	0xc
 	.long	0x58
 	.long	0xac
@@ -376,7 +377,6 @@ escape_main:
 	.quad	0
 	.section	.debug_line,"",@progbits
 .Ldebug_line0:
-	.file 0 "/home/insomnia/Code/c-basic" "src/escape.c"
 	.section	.debug_str,"MS",@progbits,1
 .LASF12:
 	.string	"scanf"
@@ -384,8 +384,6 @@ escape_main:
 	.string	"unsigned int"
 .LASF16:
 	.string	"salary"
-.LASF11:
-	.string	"GNU C11 11.1.0 -mtune=generic -march=x86-64 -g -std=c11"
 .LASF2:
 	.string	"long unsigned int"
 .LASF13:
@@ -398,6 +396,8 @@ escape_main:
 	.string	"escape_main"
 .LASF8:
 	.string	"long int"
+.LASF11:
+	.string	"GNU C11 11.2.0 -mtune=generic -march=x86-64 -g -std=c11"
 .LASF5:
 	.string	"short unsigned int"
 .LASF14:
@@ -410,8 +410,8 @@ escape_main:
 	.string	"signed char"
 	.section	.debug_line_str,"MS",@progbits,1
 .LASF1:
-	.string	"/home/insomnia/Code/c-basic"
+	.string	"/home/insomnia/eclipse-workspace/c-basic"
 .LASF0:
 	.string	"src/escape.c"
-	.ident	"GCC: (GNU) 11.1.0"
+	.ident	"GCC: (GNU) 11.2.0"
 	.section	.note.GNU-stack,"",@progbits

@@ -1,6 +1,7 @@
 	.file	"print_name.c"
 	.text
 .Ltext0:
+	.file 0 "/home/insomnia/eclipse-workspace/c-basic" "src/print_name.c"
 	.section	.rodata
 .LC0:
 	.string	"Please type your lastname:"
@@ -156,7 +157,7 @@ print_name_align:
 .Letext0:
 	.file 2 "/usr/include/string.h"
 	.file 3 "/usr/include/stdio.h"
-	.file 4 "/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/stddef.h"
+	.file 4 "/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include/stddef.h"
 	.section	.debug_info,"",@progbits
 .Ldebug_info0:
 	.long	0x161
@@ -219,7 +220,7 @@ print_name_align:
 	.uleb128 0x4
 	.long	.LASF10
 	.byte	0x2
-	.value	0x187
+	.value	0x197
 	.byte	0xf
 	.long	0x2e
 	.long	0x95
@@ -232,7 +233,7 @@ print_name_align:
 	.uleb128 0x4
 	.long	.LASF11
 	.byte	0x3
-	.value	0x14c
+	.value	0x164
 	.byte	0xc
 	.long	0x64
 	.long	0xb3
@@ -243,7 +244,7 @@ print_name_align:
 	.uleb128 0xd
 	.long	.LASF19
 	.byte	0x3
-	.value	0x19d
+	.value	0x1b5
 	.byte	0xc
 	.long	.LASF20
 	.long	0x64
@@ -557,7 +558,6 @@ print_name_align:
 	.quad	0
 	.section	.debug_line,"",@progbits
 .Ldebug_line0:
-	.file 0 "/home/insomnia/Code/c-basic" "src/print_name.c"
 	.section	.debug_str,"MS",@progbits,1
 .LASF19:
 	.string	"scanf"
@@ -565,8 +565,8 @@ print_name_align:
 	.string	"size_t"
 .LASF16:
 	.string	"lastname"
-.LASF17:
-	.string	"GNU C11 11.1.0 -mtune=generic -march=x86-64 -g -std=c11"
+.LASF15:
+	.string	"firstname"
 .LASF2:
 	.string	"long unsigned int"
 .LASF12:
@@ -581,6 +581,8 @@ print_name_align:
 	.string	"char"
 .LASF8:
 	.string	"long int"
+.LASF17:
+	.string	"GNU C11 11.2.0 -mtune=generic -march=x86-64 -g -std=c11"
 .LASF10:
 	.string	"strlen"
 .LASF5:
@@ -589,8 +591,6 @@ print_name_align:
 	.string	"printf"
 .LASF7:
 	.string	"short int"
-.LASF15:
-	.string	"firstname"
 .LASF3:
 	.string	"unsigned int"
 .LASF13:
@@ -601,6 +601,6 @@ print_name_align:
 .LASF0:
 	.string	"src/print_name.c"
 .LASF1:
-	.string	"/home/insomnia/Code/c-basic"
-	.ident	"GCC: (GNU) 11.1.0"
+	.string	"/home/insomnia/eclipse-workspace/c-basic"
+	.ident	"GCC: (GNU) 11.2.0"
 	.section	.note.GNU-stack,"",@progbits

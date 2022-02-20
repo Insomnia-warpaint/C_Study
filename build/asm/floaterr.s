@@ -1,6 +1,7 @@
 	.file	"floaterr.c"
 	.text
 .Ltext0:
+	.file 0 "/home/insomnia/eclipse-workspace/c-basic" "src/floaterr.c"
 	.section	.rodata
 .LC2:
 	.string	"%f\n"
@@ -124,7 +125,7 @@ floaterr_main:
 	.uleb128 0x6
 	.long	.LASF12
 	.byte	0x2
-	.value	0x14c
+	.value	0x164
 	.byte	0xc
 	.long	0x58
 	.long	0x8a
@@ -332,14 +333,11 @@ floaterr_main:
 	.quad	0
 	.section	.debug_line,"",@progbits
 .Ldebug_line0:
-	.file 0 "/home/insomnia/Code/c-basic" "src/floaterr.c"
 	.section	.debug_str,"MS",@progbits,1
 .LASF3:
 	.string	"unsigned int"
 .LASF13:
 	.string	"floaterr_main"
-.LASF11:
-	.string	"GNU C11 11.1.0 -mtune=generic -march=x86-64 -g -std=c11"
 .LASF2:
 	.string	"long unsigned int"
 .LASF4:
@@ -348,6 +346,8 @@ floaterr_main:
 	.string	"char"
 .LASF8:
 	.string	"long int"
+.LASF11:
+	.string	"GNU C11 11.2.0 -mtune=generic -march=x86-64 -g -std=c11"
 .LASF5:
 	.string	"short unsigned int"
 .LASF12:
@@ -359,9 +359,9 @@ floaterr_main:
 .LASF6:
 	.string	"signed char"
 	.section	.debug_line_str,"MS",@progbits,1
-.LASF1:
-	.string	"/home/insomnia/Code/c-basic"
 .LASF0:
 	.string	"src/floaterr.c"
-	.ident	"GCC: (GNU) 11.1.0"
+.LASF1:
+	.string	"/home/insomnia/eclipse-workspace/c-basic"
+	.ident	"GCC: (GNU) 11.2.0"
 	.section	.note.GNU-stack,"",@progbits

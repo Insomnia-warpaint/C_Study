@@ -1,5 +1,5 @@
 # 0 "src/basic.c"
-# 1 "/home/insomnia/Code/c-basic//"
+# 1 "/home/insomnia/eclipse-workspace/c-basic//"
 # 0 "<built-in>"
 # 0 "<command-line>"
 # 1 "/usr/include/stdc-predef.h" 1 3 4
@@ -12,11 +12,67 @@
 
 
 
+# 1 "src/../include/trunth.h" 1
+
+
+
+
+int
+trunth_main(void);
+# 9 "src/basic.c" 2
+# 1 "src/../include/t_and_f.h" 1
+
+
+
+
+int t_f_main(void);
+# 10 "src/basic.c" 2
+# 1 "src/../include/cmpflt.h" 1
+
+
+
+
+int cmpflt_main(void);
+# 11 "src/basic.c" 2
+# 1 "src/../include/when.h" 1
+
+
+
+
+
+
+int when_main(void);
+# 12 "src/basic.c" 2
+# 1 "src/../include/summing.h" 1
+# 11 "src/../include/summing.h"
+int
+summing_main(void);
+# 13 "src/basic.c" 2
+# 1 "src/../include/convert_temperature.h" 1
+# 11 "src/../include/convert_temperature.h"
+int
+convert_temperature_main(void);
+# 14 "src/basic.c" 2
+# 1 "src/../include/convert_day.h" 1
+# 11 "src/../include/convert_day.h"
+int
+convert_day_main(void);
+# 15 "src/basic.c" 2
+# 1 "src/../include/greater_ten.h" 1
+# 12 "src/../include/greater_ten.h"
+int
+greater_ten_main(void);
+# 16 "src/basic.c" 2
+# 1 "src/../include/convert_time.h" 1
+# 11 "src/../include/convert_time.h"
+int
+convert_time_main (void);
+# 17 "src/basic.c" 2
 # 1 "src/../include/running.h" 1
 # 11 "src/../include/running.h"
 int
 running_main(void);
-# 9 "src/basic.c" 2
+# 18 "src/basic.c" 2
 # 1 "src/../include/pound.h" 1
 
 
@@ -24,72 +80,72 @@ running_main(void);
 
 int
 pound_main(void);
-# 10 "src/basic.c" 2
+# 19 "src/basic.c" 2
 # 1 "src/../include/sizeof.h" 1
 # 11 "src/../include/sizeof.h"
 int
 sizeof_main (void);
-# 11 "src/basic.c" 2
+# 20 "src/basic.c" 2
 # 1 "src/../include/rules.h" 1
 # 11 "src/../include/rules.h"
 int
 rules_main (void);
-# 12 "src/basic.c" 2
+# 21 "src/basic.c" 2
 # 1 "src/../include/divide.h" 1
 # 11 "src/../include/divide.h"
 int
 divide_main (void);
-# 13 "src/basic.c" 2
+# 22 "src/basic.c" 2
 # 1 "src/../include/golf.h" 1
 # 11 "src/../include/golf.h"
 int
 golf_main (void);
-# 14 "src/basic.c" 2
+# 23 "src/basic.c" 2
 # 1 "src/../include/wheat.h" 1
 # 11 "src/../include/wheat.h"
 int
 wheat_main (void);
-# 15 "src/basic.c" 2
+# 24 "src/basic.c" 2
 # 1 "src/../include/squares.h" 1
 # 11 "src/../include/squares.h"
 int
 squares_main (void);
-# 16 "src/basic.c" 2
+# 25 "src/basic.c" 2
 # 1 "src/../include/shoes.h" 1
 # 11 "src/../include/shoes.h"
 int
 shoes_main (void);
-# 17 "src/basic.c" 2
+# 26 "src/basic.c" 2
 # 1 "src/../include/calculate_distance.h" 1
 # 11 "src/../include/calculate_distance.h"
 int
 calculate_distance_main (void);
-# 18 "src/basic.c" 2
+# 27 "src/basic.c" 2
 # 1 "src/../include/doub_flot_diff.h" 1
 # 11 "src/../include/doub_flot_diff.h"
 int
 doub_flot_dif_main (void);
-# 19 "src/basic.c" 2
+# 28 "src/basic.c" 2
 # 1 "src/../include/calculate_strlen.h" 1
 # 11 "src/../include/calculate_strlen.h"
 int
 calculate_strlen_main (void);
-# 20 "src/basic.c" 2
+# 29 "src/basic.c" 2
 # 1 "src/../include/print_dspeed.h" 1
 # 11 "src/../include/print_dspeed.h"
 int
 dspeed_main (void);
-# 21 "src/basic.c" 2
+# 30 "src/basic.c" 2
 # 1 "src/../include/entry_info.h" 1
 # 11 "src/../include/entry_info.h"
 int
 entry_info_main (void);
-# 22 "src/basic.c" 2
+# 31 "src/basic.c" 2
 # 1 "src/../include/input_float.h" 1
 # 11 "src/../include/input_float.h"
 int
 input_float_main (void);
-# 23 "src/basic.c" 2
+# 32 "src/basic.c" 2
 # 1 "src/../include/print_name.h" 1
 # 11 "src/../include/print_name.h"
 int
@@ -97,62 +153,62 @@ print_name_main (void);
 
 int
 print_name_align (void);
-# 24 "src/basic.c" 2
+# 33 "src/basic.c" 2
 # 1 "src/../include/longstrg.h" 1
 # 11 "src/../include/longstrg.h"
 int
 longstrg_main (void);
-# 25 "src/basic.c" 2
+# 34 "src/basic.c" 2
 # 1 "src/../include/prntval.h" 1
 # 11 "src/../include/prntval.h"
 int
 prntval_main (void);
-# 26 "src/basic.c" 2
+# 35 "src/basic.c" 2
 # 1 "src/../include/floatcnv.h" 1
 # 11 "src/../include/floatcnv.h"
 int
 floatcnv_main (void);
-# 27 "src/basic.c" 2
+# 36 "src/basic.c" 2
 # 1 "src/../include/intconv.h" 1
 # 11 "src/../include/intconv.h"
 int
 intconv_main (void);
-# 28 "src/basic.c" 2
+# 37 "src/basic.c" 2
 # 1 "src/../include/stringf.h" 1
 # 11 "src/../include/stringf.h"
 int
 stringf_main (void);
-# 29 "src/basic.c" 2
+# 38 "src/basic.c" 2
 # 1 "src/../include/flags.h" 1
 # 11 "src/../include/flags.h"
 int
 flags_main (void);
-# 30 "src/basic.c" 2
+# 39 "src/basic.c" 2
 # 1 "src/../include/floats.h" 1
 # 11 "src/../include/floats.h"
 int
 floats_main (void);
-# 31 "src/basic.c" 2
+# 40 "src/basic.c" 2
 # 1 "src/../include/width.h" 1
 # 11 "src/../include/width.h"
 int
 width_main (void);
-# 32 "src/basic.c" 2
+# 41 "src/basic.c" 2
 # 1 "src/../include/printout.h" 1
 # 11 "src/../include/printout.h"
 int
 printout_main (void);
-# 33 "src/basic.c" 2
+# 42 "src/basic.c" 2
 # 1 "src/../include/defines.h" 1
 # 11 "src/../include/defines.h"
 int
 defines_main (void);
-# 34 "src/basic.c" 2
+# 43 "src/basic.c" 2
 # 1 "src/../include/pizza.h" 1
 # 11 "src/../include/pizza.h"
 int
 pizza_main (void);
-# 35 "src/basic.c" 2
+# 44 "src/basic.c" 2
 # 1 "src/../include/praise.h" 1
 # 11 "src/../include/praise.h"
 int
@@ -160,87 +216,87 @@ priase_main (void);
 
 int
 praises_main (void);
-# 36 "src/basic.c" 2
+# 45 "src/basic.c" 2
 # 1 "src/../include/talkback.h" 1
 # 11 "src/../include/talkback.h"
 int
 talkback_main (void);
-# 37 "src/basic.c" 2
+# 46 "src/basic.c" 2
 # 1 "src/../include/conv_inch_to_centimeter.h" 1
 # 11 "src/../include/conv_inch_to_centimeter.h"
 int
 conv_inch_to_cm (void);
-# 38 "src/basic.c" 2
+# 47 "src/basic.c" 2
 # 1 "src/../include/conv_quart_to_molecule.h" 1
 # 10 "src/../include/conv_quart_to_molecule.h"
 int
 conv_quart_to_mlc (void);
-# 39 "src/basic.c" 2
+# 48 "src/basic.c" 2
 # 1 "src/../include/conv_age_to_sec.h" 1
 # 11 "src/../include/conv_age_to_sec.h"
 int
 conv_age_main (void);
-# 40 "src/basic.c" 2
+# 49 "src/basic.c" 2
 # 1 "src/../include/print_flt.h" 1
 # 11 "src/../include/print_flt.h"
 int
 print_flt_main (void);
-# 41 "src/basic.c" 2
+# 50 "src/basic.c" 2
 # 1 "src/../include/print_ch.h" 1
 # 11 "src/../include/print_ch.h"
 int
 print_ch_main (void);
-# 42 "src/basic.c" 2
+# 51 "src/basic.c" 2
 # 1 "src/../include/escape.h" 1
 # 11 "src/../include/escape.h"
 int
 escape_main (void);
-# 43 "src/basic.c" 2
+# 52 "src/basic.c" 2
 # 1 "src/../include/floaterr.h" 1
 # 11 "src/../include/floaterr.h"
 int
 floaterr_main (void);
-# 44 "src/basic.c" 2
+# 53 "src/basic.c" 2
 # 1 "src/../include/showf_pt.h" 1
 # 11 "src/../include/showf_pt.h"
 int
 showf_pt_main (void);
-# 45 "src/basic.c" 2
+# 54 "src/basic.c" 2
 # 1 "src/../include/altnames.h" 1
 # 11 "src/../include/altnames.h"
 int
 altnames_main (void);
-# 46 "src/basic.c" 2
+# 55 "src/basic.c" 2
 # 1 "src/../include/charcode.h" 1
 # 11 "src/../include/charcode.h"
 int
 charcode_main (void);
-# 47 "src/basic.c" 2
+# 56 "src/basic.c" 2
 # 1 "src/../include/print_unsigned.h" 1
 # 12 "src/../include/print_unsigned.h"
 int
 print_unsigned_main (void);
-# 48 "src/basic.c" 2
+# 57 "src/basic.c" 2
 # 1 "src/../include/toobig.h" 1
 # 11 "src/../include/toobig.h"
 int
 toobig_main (void);
-# 49 "src/basic.c" 2
+# 58 "src/basic.c" 2
 # 1 "src/../include/bases.h" 1
 # 11 "src/../include/bases.h"
 int
 bases_main (void);
-# 50 "src/basic.c" 2
+# 59 "src/basic.c" 2
 # 1 "src/../include/platinum.h" 1
 # 11 "src/../include/platinum.h"
 int
 platinum_main (void);
-# 51 "src/basic.c" 2
+# 60 "src/basic.c" 2
 # 1 "src/../include/sorted.h" 1
 # 11 "src/../include/sorted.h"
 int
 sorted_main (void);
-# 52 "src/basic.c" 2
+# 61 "src/basic.c" 2
 # 1 "src/../include/parctice_printf.h" 1
 # 10 "src/../include/parctice_printf.h"
 int
@@ -278,7 +334,7 @@ one_three (void);
 
 void
 two (void);
-# 53 "src/basic.c" 2
+# 62 "src/basic.c" 2
 # 1 "src/../include/func.h" 1
 # 10 "src/../include/func.h"
 int
@@ -287,22 +343,22 @@ func_main (void);
 
 void
 butler (void);
-# 54 "src/basic.c" 2
+# 63 "src/basic.c" 2
 # 1 "src/../include/logic_err.h" 1
 # 11 "src/../include/logic_err.h"
 int
 logic_err_main (void);
-# 55 "src/basic.c" 2
+# 64 "src/basic.c" 2
 # 1 "src/../include/fathm_ft.h" 1
 # 11 "src/../include/fathm_ft.h"
 int
 fathm_ft_main (void);
-# 56 "src/basic.c" 2
+# 65 "src/basic.c" 2
 # 1 "src/../include/hello.h" 1
 # 11 "src/../include/hello.h"
 int
 hello_main (void);
-# 57 "src/basic.c" 2
+# 66 "src/basic.c" 2
 # 1 "src/../include/pnt_space.h" 1
 # 10 "src/../include/pnt_space.h"
 int
@@ -310,28 +366,39 @@ pnt_space (void);
 
 int
 pnt_spaces (int number);
-# 58 "src/basic.c" 2
+# 67 "src/basic.c" 2
 # 1 "src/../include/bool.h" 1
-# 59 "src/basic.c" 2
+# 68 "src/basic.c" 2
 # 1 "/usr/include/stdio.h" 1 3 4
 # 27 "/usr/include/stdio.h" 3 4
 # 1 "/usr/include/bits/libc-header-start.h" 1 3 4
 # 33 "/usr/include/bits/libc-header-start.h" 3 4
 # 1 "/usr/include/features.h" 1 3 4
-# 473 "/usr/include/features.h" 3 4
-# 1 "/usr/include/sys/cdefs.h" 1 3 4
-# 462 "/usr/include/sys/cdefs.h" 3 4
+# 392 "/usr/include/features.h" 3 4
+# 1 "/usr/include/features-time64.h" 1 3 4
+# 20 "/usr/include/features-time64.h" 3 4
 # 1 "/usr/include/bits/wordsize.h" 1 3 4
-# 463 "/usr/include/sys/cdefs.h" 2 3 4
+# 21 "/usr/include/features-time64.h" 2 3 4
+# 1 "/usr/include/bits/timesize.h" 1 3 4
+# 19 "/usr/include/bits/timesize.h" 3 4
+# 1 "/usr/include/bits/wordsize.h" 1 3 4
+# 20 "/usr/include/bits/timesize.h" 2 3 4
+# 22 "/usr/include/features-time64.h" 2 3 4
+# 393 "/usr/include/features.h" 2 3 4
+# 490 "/usr/include/features.h" 3 4
+# 1 "/usr/include/sys/cdefs.h" 1 3 4
+# 559 "/usr/include/sys/cdefs.h" 3 4
+# 1 "/usr/include/bits/wordsize.h" 1 3 4
+# 560 "/usr/include/sys/cdefs.h" 2 3 4
 # 1 "/usr/include/bits/long-double.h" 1 3 4
-# 464 "/usr/include/sys/cdefs.h" 2 3 4
-# 474 "/usr/include/features.h" 2 3 4
-# 497 "/usr/include/features.h" 3 4
+# 561 "/usr/include/sys/cdefs.h" 2 3 4
+# 491 "/usr/include/features.h" 2 3 4
+# 514 "/usr/include/features.h" 3 4
 # 1 "/usr/include/gnu/stubs.h" 1 3 4
 # 10 "/usr/include/gnu/stubs.h" 3 4
 # 1 "/usr/include/gnu/stubs-64.h" 1 3 4
 # 11 "/usr/include/gnu/stubs.h" 2 3 4
-# 498 "/usr/include/features.h" 2 3 4
+# 515 "/usr/include/features.h" 2 3 4
 # 34 "/usr/include/bits/libc-header-start.h" 2 3 4
 # 28 "/usr/include/stdio.h" 2 3 4
 
@@ -339,16 +406,16 @@ pnt_spaces (int number);
 
 
 
-# 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/stddef.h" 1 3 4
-# 209 "/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/stddef.h" 3 4
+# 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include/stddef.h" 1 3 4
+# 209 "/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include/stddef.h" 3 4
 
-# 209 "/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/stddef.h" 3 4
+# 209 "/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include/stddef.h" 3 4
 typedef long unsigned int size_t;
 # 34 "/usr/include/stdio.h" 2 3 4
 
 
-# 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/stdarg.h" 1 3 4
-# 40 "/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/stdarg.h" 3 4
+# 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include/stdarg.h" 1 3 4
+# 40 "/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include/stdarg.h" 3 4
 typedef __builtin_va_list __gnuc_va_list;
 # 37 "/usr/include/stdio.h" 2 3 4
 
@@ -357,6 +424,9 @@ typedef __builtin_va_list __gnuc_va_list;
 # 1 "/usr/include/bits/wordsize.h" 1 3 4
 # 28 "/usr/include/bits/types.h" 2 3 4
 # 1 "/usr/include/bits/timesize.h" 1 3 4
+# 19 "/usr/include/bits/timesize.h" 3 4
+# 1 "/usr/include/bits/wordsize.h" 1 3 4
+# 20 "/usr/include/bits/timesize.h" 2 3 4
 # 29 "/usr/include/bits/types.h" 2 3 4
 
 
@@ -606,9 +676,7 @@ typedef __fpos_t fpos_t;
 # 133 "/usr/include/stdio.h" 3 4
 # 1 "/usr/include/bits/stdio_lim.h" 1 3 4
 # 134 "/usr/include/stdio.h" 2 3 4
-
-
-
+# 143 "/usr/include/stdio.h" 3 4
 extern FILE *stdin;
 extern FILE *stdout;
 extern FILE *stderr;
@@ -621,20 +689,19 @@ extern FILE *stderr;
 extern int remove (const char *__filename) __attribute__ ((__nothrow__ , __leaf__));
 
 extern int rename (const char *__old, const char *__new) __attribute__ ((__nothrow__ , __leaf__));
-# 173 "/usr/include/stdio.h" 3 4
-extern FILE *tmpfile (void) ;
-# 187 "/usr/include/stdio.h" 3 4
-extern char *tmpnam (char *__s) __attribute__ ((__nothrow__ , __leaf__)) ;
-# 213 "/usr/include/stdio.h" 3 4
+# 178 "/usr/include/stdio.h" 3 4
 extern int fclose (FILE *__stream);
-
-
-
-
+# 188 "/usr/include/stdio.h" 3 4
+extern FILE *tmpfile (void)
+  __attribute__ ((__malloc__)) __attribute__ ((__malloc__ (fclose, 1))) ;
+# 205 "/usr/include/stdio.h" 3 4
+extern char *tmpnam (char[20]) __attribute__ ((__nothrow__ , __leaf__)) ;
+# 230 "/usr/include/stdio.h" 3 4
 extern int fflush (FILE *__stream);
-# 246 "/usr/include/stdio.h" 3 4
+# 258 "/usr/include/stdio.h" 3 4
 extern FILE *fopen (const char *__restrict __filename,
-      const char *__restrict __modes) ;
+      const char *__restrict __modes)
+  __attribute__ ((__malloc__)) __attribute__ ((__malloc__ (fclose, 1))) ;
 
 
 
@@ -642,14 +709,14 @@ extern FILE *fopen (const char *__restrict __filename,
 extern FILE *freopen (const char *__restrict __filename,
         const char *__restrict __modes,
         FILE *__restrict __stream) ;
-# 304 "/usr/include/stdio.h" 3 4
+# 328 "/usr/include/stdio.h" 3 4
 extern void setbuf (FILE *__restrict __stream, char *__restrict __buf) __attribute__ ((__nothrow__ , __leaf__));
 
 
 
 extern int setvbuf (FILE *__restrict __stream, char *__restrict __buf,
       int __modes, size_t __n) __attribute__ ((__nothrow__ , __leaf__));
-# 326 "/usr/include/stdio.h" 3 4
+# 350 "/usr/include/stdio.h" 3 4
 extern int fprintf (FILE *__restrict __stream,
       const char *__restrict __format, ...);
 
@@ -685,7 +752,7 @@ extern int snprintf (char *__restrict __s, size_t __maxlen,
 extern int vsnprintf (char *__restrict __s, size_t __maxlen,
         const char *__restrict __format, __gnuc_va_list __arg)
      __attribute__ ((__nothrow__)) __attribute__ ((__format__ (__printf__, 3, 0)));
-# 391 "/usr/include/stdio.h" 3 4
+# 415 "/usr/include/stdio.h" 3 4
 extern int fscanf (FILE *__restrict __stream,
      const char *__restrict __format, ...) ;
 
@@ -708,7 +775,7 @@ extern int sscanf (const char *__restrict __s,
 # 1 "/usr/include/bits/long-double.h" 1 3 4
 # 25 "/usr/include/bits/floatn-common.h" 2 3 4
 # 120 "/usr/include/bits/floatn.h" 2 3 4
-# 407 "/usr/include/stdio.h" 2 3 4
+# 431 "/usr/include/stdio.h" 2 3 4
 
 
 
@@ -720,7 +787,7 @@ extern int scanf (const char *__restrict __format, ...) __asm__ ("" "__isoc99_sc
 extern int sscanf (const char *__restrict __s, const char *__restrict __format, ...) __asm__ ("" "__isoc99_sscanf") __attribute__ ((__nothrow__ , __leaf__))
 
                       ;
-# 435 "/usr/include/stdio.h" 3 4
+# 459 "/usr/include/stdio.h" 3 4
 extern int vfscanf (FILE *__restrict __s, const char *__restrict __format,
       __gnuc_va_list __arg)
      __attribute__ ((__format__ (__scanf__, 2, 0))) ;
@@ -754,7 +821,7 @@ extern int vsscanf (const char *__restrict __s, const char *__restrict __format,
 
 
      __attribute__ ((__format__ (__scanf__, 2, 0)));
-# 489 "/usr/include/stdio.h" 3 4
+# 513 "/usr/include/stdio.h" 3 4
 extern int fgetc (FILE *__stream);
 extern int getc (FILE *__stream);
 
@@ -763,7 +830,7 @@ extern int getc (FILE *__stream);
 
 
 extern int getchar (void);
-# 525 "/usr/include/stdio.h" 3 4
+# 549 "/usr/include/stdio.h" 3 4
 extern int fputc (int __c, FILE *__stream);
 extern int putc (int __c, FILE *__stream);
 
@@ -772,10 +839,10 @@ extern int putc (int __c, FILE *__stream);
 
 
 extern int putchar (int __c);
-# 568 "/usr/include/stdio.h" 3 4
+# 592 "/usr/include/stdio.h" 3 4
 extern char *fgets (char *__restrict __s, int __n, FILE *__restrict __stream)
      __attribute__ ((__access__ (__write_only__, 1, 2)));
-# 631 "/usr/include/stdio.h" 3 4
+# 655 "/usr/include/stdio.h" 3 4
 extern int fputs (const char *__restrict __s, FILE *__restrict __stream);
 
 
@@ -804,7 +871,7 @@ extern size_t fread (void *__restrict __ptr, size_t __size,
 
 extern size_t fwrite (const void *__restrict __ptr, size_t __size,
         size_t __n, FILE *__restrict __s);
-# 689 "/usr/include/stdio.h" 3 4
+# 713 "/usr/include/stdio.h" 3 4
 extern int fseek (FILE *__stream, long int __off, int __whence);
 
 
@@ -816,36 +883,36 @@ extern long int ftell (FILE *__stream) ;
 
 
 extern void rewind (FILE *__stream);
-# 736 "/usr/include/stdio.h" 3 4
+# 760 "/usr/include/stdio.h" 3 4
 extern int fgetpos (FILE *__restrict __stream, fpos_t *__restrict __pos);
 
 
 
 
 extern int fsetpos (FILE *__stream, const fpos_t *__pos);
-# 762 "/usr/include/stdio.h" 3 4
+# 786 "/usr/include/stdio.h" 3 4
 extern void clearerr (FILE *__stream) __attribute__ ((__nothrow__ , __leaf__));
 
 extern int feof (FILE *__stream) __attribute__ ((__nothrow__ , __leaf__)) ;
 
 extern int ferror (FILE *__stream) __attribute__ ((__nothrow__ , __leaf__)) ;
-# 780 "/usr/include/stdio.h" 3 4
+# 804 "/usr/include/stdio.h" 3 4
 extern void perror (const char *__s);
-# 857 "/usr/include/stdio.h" 3 4
+# 885 "/usr/include/stdio.h" 3 4
 extern int __uflow (FILE *);
 extern int __overflow (FILE *, int);
-# 874 "/usr/include/stdio.h" 3 4
+# 902 "/usr/include/stdio.h" 3 4
 
-# 60 "src/basic.c" 2
+# 69 "src/basic.c" 2
 
 
-# 61 "src/basic.c"
+# 70 "src/basic.c"
 int
 main (void)
 {
-# 225 "src/basic.c"
-  running_main ();
-  pnt_spaces (2);
+# 262 "src/basic.c"
+ trunth_main();
+ pnt_spaces(2);
 
   return 0;
 }

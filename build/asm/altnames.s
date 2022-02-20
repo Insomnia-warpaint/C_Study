@@ -1,6 +1,7 @@
 	.file	"altnames.c"
 	.text
 .Ltext0:
+	.file 0 "/home/insomnia/eclipse-workspace/c-basic" "src/altnames.c"
 	.section	.rodata
 	.align 8
 .LC0:
@@ -138,7 +139,7 @@ altnames_main:
 	.uleb128 0x6
 	.long	.LASF13
 	.byte	0x4
-	.value	0x14c
+	.value	0x164
 	.byte	0xc
 	.long	0x64
 	.long	0xa2
@@ -338,8 +339,9 @@ altnames_main:
 	.quad	0
 	.section	.debug_line,"",@progbits
 .Ldebug_line0:
-	.file 0 "/home/insomnia/Code/c-basic" "src/altnames.c"
 	.section	.debug_str,"MS",@progbits,1
+.LASF12:
+	.string	"GNU C11 11.2.0 -mtune=generic -march=x86-64 -g -std=c11"
 .LASF4:
 	.string	"unsigned int"
 .LASF5:
@@ -358,8 +360,6 @@ altnames_main:
 	.string	"char"
 .LASF10:
 	.string	"__int32_t"
-.LASF12:
-	.string	"GNU C11 11.1.0 -mtune=generic -march=x86-64 -g -std=c11"
 .LASF2:
 	.string	"unsigned char"
 .LASF8:
@@ -370,8 +370,8 @@ altnames_main:
 	.string	"printf"
 	.section	.debug_line_str,"MS",@progbits,1
 .LASF1:
-	.string	"/home/insomnia/Code/c-basic"
+	.string	"/home/insomnia/eclipse-workspace/c-basic"
 .LASF0:
 	.string	"src/altnames.c"
-	.ident	"GCC: (GNU) 11.1.0"
+	.ident	"GCC: (GNU) 11.2.0"
 	.section	.note.GNU-stack,"",@progbits

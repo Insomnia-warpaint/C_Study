@@ -1,6 +1,7 @@
 	.file	"plaitnum.c"
 	.text
 .Ltext0:
+	.file 0 "/home/insomnia/eclipse-workspace/c-basic" "src/plaitnum.c"
 	.section	.rodata
 	.align 8
 .LC0:
@@ -169,7 +170,7 @@ platinum_main:
 	.uleb128 0x8
 	.long	.LASF14
 	.byte	0x2
-	.value	0x14c
+	.value	0x164
 	.byte	0xc
 	.long	0x58
 	.long	0x8a
@@ -183,7 +184,7 @@ platinum_main:
 	.uleb128 0xa
 	.long	.LASF15
 	.byte	0x2
-	.value	0x19d
+	.value	0x1b5
 	.byte	0xc
 	.long	.LASF16
 	.long	0x58
@@ -405,14 +406,11 @@ platinum_main:
 	.quad	0
 	.section	.debug_line,"",@progbits
 .Ldebug_line0:
-	.file 0 "/home/insomnia/Code/c-basic" "src/plaitnum.c"
 	.section	.debug_str,"MS",@progbits,1
 .LASF15:
 	.string	"scanf"
 .LASF3:
 	.string	"unsigned int"
-.LASF13:
-	.string	"GNU C11 11.1.0 -mtune=generic -march=x86-64 -g -std=c11"
 .LASF2:
 	.string	"long unsigned int"
 .LASF12:
@@ -425,6 +423,8 @@ platinum_main:
 	.string	"char"
 .LASF8:
 	.string	"long int"
+.LASF13:
+	.string	"GNU C11 11.2.0 -mtune=generic -march=x86-64 -g -std=c11"
 .LASF5:
 	.string	"short unsigned int"
 .LASF14:
@@ -440,9 +440,9 @@ platinum_main:
 .LASF6:
 	.string	"signed char"
 	.section	.debug_line_str,"MS",@progbits,1
-.LASF1:
-	.string	"/home/insomnia/Code/c-basic"
 .LASF0:
 	.string	"src/plaitnum.c"
-	.ident	"GCC: (GNU) 11.1.0"
+.LASF1:
+	.string	"/home/insomnia/eclipse-workspace/c-basic"
+	.ident	"GCC: (GNU) 11.2.0"
 	.section	.note.GNU-stack,"",@progbits

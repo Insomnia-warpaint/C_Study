@@ -1,6 +1,7 @@
 	.file	"print_dspeed.c"
 	.text
 .Ltext0:
+	.file 0 "/home/insomnia/eclipse-workspace/c-basic" "src/print_dspeed.c"
 	.section	.rodata
 .LC0:
 	.string	"Enter youer netspeed(Mb/s):"
@@ -198,7 +199,7 @@ dspeed_main:
 	.uleb128 0x8
 	.long	.LASF12
 	.byte	0x2
-	.value	0x14c
+	.value	0x164
 	.byte	0xc
 	.long	0x58
 	.long	0x8a
@@ -212,7 +213,7 @@ dspeed_main:
 	.uleb128 0xa
 	.long	.LASF13
 	.byte	0x2
-	.value	0x19d
+	.value	0x1b5
 	.byte	0xc
 	.long	.LASF14
 	.long	0x58
@@ -441,7 +442,6 @@ dspeed_main:
 	.quad	0
 	.section	.debug_line,"",@progbits
 .Ldebug_line0:
-	.file 0 "/home/insomnia/Code/c-basic" "src/print_dspeed.c"
 	.section	.debug_str,"MS",@progbits,1
 .LASF13:
 	.string	"scanf"
@@ -449,8 +449,6 @@ dspeed_main:
 	.string	"unsigned int"
 .LASF15:
 	.string	"dspeed_main"
-.LASF11:
-	.string	"GNU C11 11.1.0 -mtune=generic -march=x86-64 -g -std=c11"
 .LASF2:
 	.string	"long unsigned int"
 .LASF14:
@@ -461,6 +459,8 @@ dspeed_main:
 	.string	"char"
 .LASF8:
 	.string	"long int"
+.LASF11:
+	.string	"GNU C11 11.2.0 -mtune=generic -march=x86-64 -g -std=c11"
 .LASF5:
 	.string	"short unsigned int"
 .LASF12:
@@ -475,6 +475,6 @@ dspeed_main:
 .LASF0:
 	.string	"src/print_dspeed.c"
 .LASF1:
-	.string	"/home/insomnia/Code/c-basic"
-	.ident	"GCC: (GNU) 11.1.0"
+	.string	"/home/insomnia/eclipse-workspace/c-basic"
+	.ident	"GCC: (GNU) 11.2.0"
 	.section	.note.GNU-stack,"",@progbits

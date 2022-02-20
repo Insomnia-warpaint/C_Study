@@ -1,6 +1,7 @@
 	.file	"talkback.c"
 	.text
 .Ltext0:
+	.file 0 "/home/insomnia/eclipse-workspace/c-basic" "src/talkback.c"
 	.section	.rodata
 .LC0:
 	.string	"Hi! Whar's your first name?"
@@ -127,7 +128,7 @@ talkback_main:
 .Letext0:
 	.file 2 "/usr/include/string.h"
 	.file 3 "/usr/include/stdio.h"
-	.file 4 "/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/stddef.h"
+	.file 4 "/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include/stddef.h"
 	.section	.debug_info,"",@progbits
 .Ldebug_info0:
 	.long	0x14c
@@ -190,7 +191,7 @@ talkback_main:
 	.uleb128 0x4
 	.long	.LASF10
 	.byte	0x2
-	.value	0x187
+	.value	0x197
 	.byte	0xf
 	.long	0x2e
 	.long	0x95
@@ -203,7 +204,7 @@ talkback_main:
 	.uleb128 0x4
 	.long	.LASF11
 	.byte	0x3
-	.value	0x14c
+	.value	0x164
 	.byte	0xc
 	.long	0x64
 	.long	0xb3
@@ -214,7 +215,7 @@ talkback_main:
 	.uleb128 0xb
 	.long	.LASF20
 	.byte	0x3
-	.value	0x19d
+	.value	0x1b5
 	.byte	0xc
 	.long	.LASF21
 	.long	0x64
@@ -498,7 +499,6 @@ talkback_main:
 	.quad	0
 	.section	.debug_line,"",@progbits
 .Ldebug_line0:
-	.file 0 "/home/insomnia/Code/c-basic" "src/talkback.c"
 	.section	.debug_str,"MS",@progbits,1
 .LASF20:
 	.string	"scanf"
@@ -506,8 +506,6 @@ talkback_main:
 	.string	"volume"
 .LASF19:
 	.string	"size_t"
-.LASF18:
-	.string	"GNU C11 11.1.0 -mtune=generic -march=x86-64 -g -std=c11"
 .LASF15:
 	.string	"letters"
 .LASF2:
@@ -524,6 +522,8 @@ talkback_main:
 	.string	"char"
 .LASF8:
 	.string	"long int"
+.LASF18:
+	.string	"GNU C11 11.2.0 -mtune=generic -march=x86-64 -g -std=c11"
 .LASF10:
 	.string	"strlen"
 .LASF5:
@@ -544,8 +544,8 @@ talkback_main:
 	.string	"signed char"
 	.section	.debug_line_str,"MS",@progbits,1
 .LASF1:
-	.string	"/home/insomnia/Code/c-basic"
+	.string	"/home/insomnia/eclipse-workspace/c-basic"
 .LASF0:
 	.string	"src/talkback.c"
-	.ident	"GCC: (GNU) 11.1.0"
+	.ident	"GCC: (GNU) 11.2.0"
 	.section	.note.GNU-stack,"",@progbits

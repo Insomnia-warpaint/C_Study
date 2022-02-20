@@ -5,6 +5,11 @@
  *      Author: miga
  */
 
+#include "../include/trunth.h"
+#include "../include/t_and_f.h"
+#include "../include/cmpflt.h"
+#include "../include/when.h"
+#include "../include/summing.h"
 #include "../include/convert_temperature.h"
 #include "../include/convert_day.h"
 #include "../include/greater_ten.h"
@@ -238,7 +243,23 @@ main (void)
 //  convert_day_main ();
 //  pnt_spaces (TWO);
 
-  convert_temperature_main ();
+//  convert_temperature_main ();
+// pnt_spaces (TWO);
+
+// summing_main ();
+// pnt_spaces (TWO);
+
+//  when_main ();
+// pnt_spaces (TWO);
+
+//  cmpflt_main ();
+//  pnt_spaces (TWO);
+
+//  t_f_main();
+//  pnt_spaces(TWO);
+
+  trunth_main ();
   pnt_spaces (TWO);
+
   return true;
 }

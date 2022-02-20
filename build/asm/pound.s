@@ -1,6 +1,7 @@
 	.file	"pound.c"
 	.text
 .Ltext0:
+	.file 0 "/home/insomnia/eclipse-workspace/c-basic" "src/pound.c"
 	.globl	pound_main
 	.type	pound_main, @function
 pound_main:
@@ -174,7 +175,7 @@ pound:
 	.uleb128 0x7
 	.long	.LASF14
 	.byte	0x2
-	.value	0x14c
+	.value	0x164
 	.byte	0xc
 	.long	0x35
 	.long	0x91
@@ -474,7 +475,6 @@ pound:
 	.quad	0
 	.section	.debug_line,"",@progbits
 .Ldebug_line0:
-	.file 0 "/home/insomnia/Code/c-basic" "src/pound.c"
 	.section	.debug_str,"MS",@progbits,1
 .LASF4:
 	.string	"long long int"
@@ -482,8 +482,6 @@ pound:
 	.string	"unsigned int"
 .LASF6:
 	.string	"unsigned char"
-.LASF13:
-	.string	"GNU C11 11.1.0 -mtune=generic -march=x86-64 -g -std=c11"
 .LASF2:
 	.string	"long unsigned int"
 .LASF15:
@@ -492,6 +490,8 @@ pound:
 	.string	"char"
 .LASF3:
 	.string	"long int"
+.LASF13:
+	.string	"GNU C11 11.2.0 -mtune=generic -march=x86-64 -g -std=c11"
 .LASF16:
 	.string	"pound_main"
 .LASF7:
@@ -507,9 +507,9 @@ pound:
 .LASF8:
 	.string	"signed char"
 	.section	.debug_line_str,"MS",@progbits,1
-.LASF1:
-	.string	"/home/insomnia/Code/c-basic"
 .LASF0:
 	.string	"src/pound.c"
-	.ident	"GCC: (GNU) 11.1.0"
+.LASF1:
+	.string	"/home/insomnia/eclipse-workspace/c-basic"
+	.ident	"GCC: (GNU) 11.2.0"
 	.section	.note.GNU-stack,"",@progbits

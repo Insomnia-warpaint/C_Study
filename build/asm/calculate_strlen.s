@@ -1,6 +1,7 @@
 	.file	"calculate_strlen.c"
 	.text
 .Ltext0:
+	.file 0 "/home/insomnia/eclipse-workspace/c-basic" "src/calculate_strlen.c"
 	.section	.rodata
 .LC0:
 	.string	"Please enter youre lasename:"
@@ -121,7 +122,7 @@ calculate_strlen_main:
 .Letext0:
 	.file 2 "/usr/include/stdio.h"
 	.file 3 "/usr/include/string.h"
-	.file 4 "/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/stddef.h"
+	.file 4 "/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include/stddef.h"
 	.section	.debug_info,"",@progbits
 .Ldebug_info0:
 	.long	0x12e
@@ -184,7 +185,7 @@ calculate_strlen_main:
 	.uleb128 0x3
 	.long	.LASF10
 	.byte	0x2
-	.value	0x14c
+	.value	0x164
 	.byte	0xc
 	.long	0x64
 	.long	0x96
@@ -198,7 +199,7 @@ calculate_strlen_main:
 	.uleb128 0x3
 	.long	.LASF11
 	.byte	0x3
-	.value	0x187
+	.value	0x197
 	.byte	0xf
 	.long	0x2e
 	.long	0xb3
@@ -208,7 +209,7 @@ calculate_strlen_main:
 	.uleb128 0xc
 	.long	.LASF16
 	.byte	0x2
-	.value	0x19d
+	.value	0x1b5
 	.byte	0xc
 	.long	.LASF17
 	.long	0x64
@@ -496,14 +497,11 @@ calculate_strlen_main:
 	.quad	0
 	.section	.debug_line,"",@progbits
 .Ldebug_line0:
-	.file 0 "/home/insomnia/Code/c-basic" "src/calculate_strlen.c"
 	.section	.debug_str,"MS",@progbits,1
 .LASF16:
 	.string	"scanf"
 .LASF15:
 	.string	"size_t"
-.LASF14:
-	.string	"GNU C11 11.1.0 -mtune=generic -march=x86-64 -g -std=c11"
 .LASF13:
 	.string	"lname"
 .LASF9:
@@ -516,8 +514,8 @@ calculate_strlen_main:
 	.string	"calculate_strlen_main"
 .LASF8:
 	.string	"long int"
-.LASF12:
-	.string	"fname"
+.LASF14:
+	.string	"GNU C11 11.2.0 -mtune=generic -march=x86-64 -g -std=c11"
 .LASF2:
 	.string	"long unsigned int"
 .LASF11:
@@ -526,6 +524,8 @@ calculate_strlen_main:
 	.string	"short unsigned int"
 .LASF10:
 	.string	"printf"
+.LASF12:
+	.string	"fname"
 .LASF7:
 	.string	"short int"
 .LASF3:
@@ -533,9 +533,9 @@ calculate_strlen_main:
 .LASF6:
 	.string	"signed char"
 	.section	.debug_line_str,"MS",@progbits,1
-.LASF1:
-	.string	"/home/insomnia/Code/c-basic"
 .LASF0:
 	.string	"src/calculate_strlen.c"
-	.ident	"GCC: (GNU) 11.1.0"
+.LASF1:
+	.string	"/home/insomnia/eclipse-workspace/c-basic"
+	.ident	"GCC: (GNU) 11.2.0"
 	.section	.note.GNU-stack,"",@progbits
