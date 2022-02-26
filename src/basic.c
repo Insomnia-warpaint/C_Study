@@ -5,6 +5,9 @@
  *      Author: miga
  */
 
+#include "../include/sweetie2.h"
+#include "../include/sweetie1.h"
+#include "../include/boolean.h"
 #include "../include/trunth.h"
 #include "../include/t_and_f.h"
 #include "../include/cmpflt.h"
@@ -258,8 +261,15 @@ main (void)
 //  t_f_main();
 //  pnt_spaces(TWO);
 
-  trunth_main ();
+//  trunth_main ();
+//  pnt_spaces (TWO);
+
+//  boolean_main();
+//  pnt_spaces(TWO);
+
+  sweetie1_main ();
   pnt_spaces (TWO);
 
   return true;
 }
+
