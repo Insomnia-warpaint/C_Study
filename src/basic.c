@@ -5,6 +5,10 @@
  *      Author: miga
  */
 
+#include "../include/for_char.h"
+#include "../include/for_13s.h"
+#include "../include/for_down.h"
+#include "../include/for_cube.h"
 #include "../include/sweetie2.h"
 #include "../include/sweetie1.h"
 #include "../include/boolean.h"
@@ -96,8 +100,8 @@ main (void)
 //  platinum_main ();
 //  pnt_spaces (TWO);
 
-//  bases_main ();
-//  pnt_spaces (TWO);
+  bases_main ();
+  pnt_spaces (TWO);
 
 //  toobig_main ();
 //  pnt_spaces (TWO);
@@ -267,9 +271,22 @@ main (void)
 //  boolean_main();
 //  pnt_spaces(TWO);
 
-  sweetie1_main ();
-  pnt_spaces (TWO);
+//  sweetie1_main ();
+//  pnt_spaces (TWO);
 
+//  sweetie2_main ();
+//  pnt_spaces (TWO);
+	
+   cube_main();
+   pnt_spaces (TWO);
+
+   fdown_main();
+   pnt_spaces(TWO);
+
+   f13s_main();
+   pnt_spaces(TWO);
+   
+   fchar_main();
+   pnt_spaces(TWO);
   return true;
 }
-

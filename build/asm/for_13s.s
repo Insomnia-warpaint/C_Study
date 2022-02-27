@@ -1,69 +1,62 @@
-	.file	"basic.c"
+	.file	"for_13s.c"
 	.text
 .Ltext0:
-	.file 0 "/home/insomnia/eclipse-workspace/c-basic" "src/basic.c"
-	.globl	main
-	.type	main, @function
-main:
+	.file 0 "/home/insomnia/eclipse-workspace/c-basic" "src/for_13s.c"
+	.section	.rodata
+.LC0:
+	.string	"%d \n"
+	.text
+	.globl	f13s_main
+	.type	f13s_main, @function
+f13s_main:
 .LFB0:
-	.file 1 "src/basic.c"
-	.loc 1 79 1
+	.file 1 "src/for_13s.c"
+	.loc 1 17 1
 	.cfi_startproc
 	pushq	%rbp
 	.cfi_def_cfa_offset 16
 	.cfi_offset 6, -16
 	movq	%rsp, %rbp
 	.cfi_def_cfa_register 6
-	.loc 1 103 3
-	call	bases_main@PLT
-	.loc 1 104 3
-	movl	$2, %edi
-	call	pnt_spaces@PLT
-	.loc 1 280 4
-	call	cube_main@PLT
-	.loc 1 281 4
-	movl	$2, %edi
-	call	pnt_spaces@PLT
-	.loc 1 283 4
-	call	fdown_main@PLT
-	.loc 1 284 4
-	movl	$2, %edi
-	call	pnt_spaces@PLT
-	.loc 1 286 4
-	call	f13s_main@PLT
-	.loc 1 287 4
-	movl	$2, %edi
-	call	pnt_spaces@PLT
-	.loc 1 289 4
-	call	fchar_main@PLT
-	.loc 1 290 4
-	movl	$2, %edi
-	call	pnt_spaces@PLT
-	.loc 1 291 10
+	subq	$16, %rsp
+	.loc 1 20 9
+	movl	$2, -4(%rbp)
+	.loc 1 20 2
+	jmp	.L2
+.L3:
+	.loc 1 22 3 discriminator 3
+	movl	-4(%rbp), %eax
+	movl	%eax, %esi
+	leaq	.LC0(%rip), %rax
+	movq	%rax, %rdi
 	movl	$0, %eax
-	.loc 1 292 1
-	popq	%rbp
+	call	printf@PLT
+	.loc 1 20 24 discriminator 3
+	addl	$13, -4(%rbp)
+.L2:
+	.loc 1 20 16 discriminator 1
+	cmpl	$60, -4(%rbp)
+	jle	.L3
+	.loc 1 26 8
+	movl	$1, %eax
+	.loc 1 27 1
+	leave
 	.cfi_def_cfa 7, 8
 	ret
 	.cfi_endproc
 .LFE0:
-	.size	main, .-main
+	.size	f13s_main, .-f13s_main
 .Letext0:
-	.file 2 "src/../include/for_char.h"
-	.file 3 "src/../include/for_13s.h"
-	.file 4 "src/../include/for_down.h"
-	.file 5 "src/../include/for_cube.h"
-	.file 6 "src/../include/bases.h"
-	.file 7 "src/../include/pnt_space.h"
+	.file 2 "/usr/include/stdio.h"
 	.section	.debug_info,"",@progbits
 .Ldebug_info0:
-	.long	0xd5
+	.long	0xb9
 	.value	0x5
 	.byte	0x1
 	.byte	0x8
 	.long	.Ldebug_abbrev0
-	.uleb128 0x3
-	.long	.LASF15
+	.uleb128 0x2
+	.long	.LASF10
 	.byte	0x1d
 	.long	.LASF0
 	.long	.LASF1
@@ -94,7 +87,7 @@ main:
 	.byte	0x2
 	.byte	0x5
 	.long	.LASF7
-	.uleb128 0x4
+	.uleb128 0x3
 	.byte	0x4
 	.byte	0x5
 	.string	"int"
@@ -106,51 +99,42 @@ main:
 	.byte	0x1
 	.byte	0x6
 	.long	.LASF9
-	.uleb128 0x2
-	.long	.LASF10
-	.byte	0x2
-	.byte	0xf
-	.long	0x58
-	.uleb128 0x2
-	.long	.LASF11
-	.byte	0x3
-	.byte	0xf
-	.long	0x58
-	.uleb128 0x2
-	.long	.LASF12
-	.byte	0x4
-	.byte	0xf
-	.long	0x58
-	.uleb128 0x2
-	.long	.LASF13
-	.byte	0x5
-	.byte	0xf
-	.long	0x58
+	.uleb128 0x4
+	.long	0x66
 	.uleb128 0x5
-	.long	.LASF16
-	.byte	0x7
-	.byte	0xe
-	.byte	0x1
-	.long	0x58
-	.long	0xaf
-	.uleb128 0x6
-	.long	0x58
-	.byte	0
-	.uleb128 0x2
-	.long	.LASF14
-	.byte	0x6
+	.long	.LASF11
+	.byte	0x2
+	.value	0x164
 	.byte	0xc
 	.long	0x58
+	.long	0x8a
+	.uleb128 0x6
+	.long	0x8a
 	.uleb128 0x7
-	.long	.LASF17
+	.byte	0
+	.uleb128 0x8
+	.byte	0x8
+	.long	0x6d
+	.uleb128 0x9
+	.long	.LASF12
 	.byte	0x1
-	.byte	0x4e
+	.byte	0x10
 	.byte	0x1
 	.long	0x58
 	.quad	.LFB0
 	.quad	.LFE0-.LFB0
 	.uleb128 0x1
 	.byte	0x9c
+	.uleb128 0xa
+	.string	"n"
+	.byte	0x1
+	.byte	0x12
+	.byte	0x6
+	.long	0x58
+	.uleb128 0x2
+	.byte	0x91
+	.sleb128 -20
+	.byte	0
 	.byte	0
 	.section	.debug_abbrev,"",@progbits
 .Ldebug_abbrev0:
@@ -166,28 +150,6 @@ main:
 	.byte	0
 	.byte	0
 	.uleb128 0x2
-	.uleb128 0x2e
-	.byte	0
-	.uleb128 0x3f
-	.uleb128 0x19
-	.uleb128 0x3
-	.uleb128 0xe
-	.uleb128 0x3a
-	.uleb128 0xb
-	.uleb128 0x3b
-	.uleb128 0xb
-	.uleb128 0x39
-	.uleb128 0x21
-	.sleb128 1
-	.uleb128 0x27
-	.uleb128 0x19
-	.uleb128 0x49
-	.uleb128 0x13
-	.uleb128 0x3c
-	.uleb128 0x19
-	.byte	0
-	.byte	0
-	.uleb128 0x3
 	.uleb128 0x11
 	.byte	0x1
 	.uleb128 0x25
@@ -206,7 +168,7 @@ main:
 	.uleb128 0x17
 	.byte	0
 	.byte	0
-	.uleb128 0x4
+	.uleb128 0x3
 	.uleb128 0x24
 	.byte	0
 	.uleb128 0xb
@@ -215,6 +177,13 @@ main:
 	.uleb128 0xb
 	.uleb128 0x3
 	.uleb128 0x8
+	.byte	0
+	.byte	0
+	.uleb128 0x4
+	.uleb128 0x26
+	.byte	0
+	.uleb128 0x49
+	.uleb128 0x13
 	.byte	0
 	.byte	0
 	.uleb128 0x5
@@ -227,7 +196,7 @@ main:
 	.uleb128 0x3a
 	.uleb128 0xb
 	.uleb128 0x3b
-	.uleb128 0xb
+	.uleb128 0x5
 	.uleb128 0x39
 	.uleb128 0xb
 	.uleb128 0x27
@@ -248,8 +217,22 @@ main:
 	.byte	0
 	.byte	0
 	.uleb128 0x7
-	.uleb128 0x2e
+	.uleb128 0x18
 	.byte	0
+	.byte	0
+	.byte	0
+	.uleb128 0x8
+	.uleb128 0xf
+	.byte	0
+	.uleb128 0xb
+	.uleb128 0xb
+	.uleb128 0x49
+	.uleb128 0x13
+	.byte	0
+	.byte	0
+	.uleb128 0x9
+	.uleb128 0x2e
+	.byte	0x1
 	.uleb128 0x3f
 	.uleb128 0x19
 	.uleb128 0x3
@@ -274,6 +257,23 @@ main:
 	.uleb128 0x19
 	.byte	0
 	.byte	0
+	.uleb128 0xa
+	.uleb128 0x34
+	.byte	0
+	.uleb128 0x3
+	.uleb128 0x8
+	.uleb128 0x3a
+	.uleb128 0xb
+	.uleb128 0x3b
+	.uleb128 0xb
+	.uleb128 0x39
+	.uleb128 0xb
+	.uleb128 0x49
+	.uleb128 0x13
+	.uleb128 0x2
+	.uleb128 0x18
+	.byte	0
+	.byte	0
 	.byte	0
 	.section	.debug_aranges,"",@progbits
 	.long	0x2c
@@ -290,42 +290,32 @@ main:
 	.section	.debug_line,"",@progbits
 .Ldebug_line0:
 	.section	.debug_str,"MS",@progbits,1
+.LASF10:
+	.string	"GNU C11 11.2.0 -mtune=generic -march=x86-64 -g -std=c11"
 .LASF3:
 	.string	"unsigned int"
-.LASF16:
-	.string	"pnt_spaces"
-.LASF13:
-	.string	"cube_main"
-.LASF11:
-	.string	"f13s_main"
-.LASF10:
-	.string	"fchar_main"
-.LASF12:
-	.string	"fdown_main"
-.LASF14:
-	.string	"bases_main"
-.LASF4:
-	.string	"unsigned char"
-.LASF17:
-	.string	"main"
-.LASF8:
-	.string	"long int"
-.LASF15:
-	.string	"GNU C11 11.2.0 -mtune=generic -march=x86-64 -g -std=c11"
 .LASF2:
 	.string	"long unsigned int"
-.LASF5:
-	.string	"short unsigned int"
 .LASF6:
 	.string	"signed char"
+.LASF5:
+	.string	"short unsigned int"
 .LASF7:
 	.string	"short int"
+.LASF12:
+	.string	"f13s_main"
+.LASF4:
+	.string	"unsigned char"
+.LASF8:
+	.string	"long int"
 .LASF9:
 	.string	"char"
+.LASF11:
+	.string	"printf"
 	.section	.debug_line_str,"MS",@progbits,1
 .LASF1:
 	.string	"/home/insomnia/eclipse-workspace/c-basic"
 .LASF0:
-	.string	"src/basic.c"
+	.string	"src/for_13s.c"
 	.ident	"GCC: (GNU) 11.2.0"
 	.section	.note.GNU-stack,"",@progbits
