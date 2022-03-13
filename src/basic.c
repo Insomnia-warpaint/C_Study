@@ -5,6 +5,7 @@
  *      Author: miga
  */
 
+#include "../include/do_while.h"
 #include "../include/zeno.h"
 #include "../include/postage.h"
 #include "../include/for_char.h"
@@ -294,7 +295,11 @@ main (void)
 // postage_main();
 // pnt_spaces(TWO);
 
-  zeno_main();
-  pnt_spaces(TWO);
+// zeno_main();
+// pnt_spaces(TWO);
+
+   do_wie_main();
+   pnt_spaces(TWO);
+
   return true;
 }

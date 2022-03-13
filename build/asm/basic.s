@@ -7,26 +7,26 @@
 main:
 .LFB0:
 	.file 1 "src/basic.c"
-	.loc 1 81 1
+	.loc 1 82 1
 	.cfi_startproc
 	pushq	%rbp
 	.cfi_def_cfa_offset 16
 	.cfi_offset 6, -16
 	movq	%rsp, %rbp
 	.cfi_def_cfa_register 6
-	.loc 1 105 3
-	call	bases_main@PLT
 	.loc 1 106 3
+	call	bases_main@PLT
+	.loc 1 107 3
 	movl	$2, %edi
 	call	pnt_spaces@PLT
-	.loc 1 297 3
-	call	zeno_main@PLT
-	.loc 1 298 3
+	.loc 1 301 4
+	call	do_wie_main@PLT
+	.loc 1 302 4
 	movl	$2, %edi
 	call	pnt_spaces@PLT
-	.loc 1 299 10
+	.loc 1 304 10
 	movl	$0, %eax
-	.loc 1 300 1
+	.loc 1 305 1
 	popq	%rbp
 	.cfi_def_cfa 7, 8
 	ret
@@ -34,7 +34,7 @@ main:
 .LFE0:
 	.size	main, .-main
 .Letext0:
-	.file 2 "src/../include/zeno.h"
+	.file 2 "src/../include/do_while.h"
 	.file 3 "src/../include/bases.h"
 	.file 4 "src/../include/pnt_space.h"
 	.section	.debug_info,"",@progbits
@@ -111,7 +111,7 @@ main:
 	.uleb128 0x7
 	.long	.LASF14
 	.byte	0x1
-	.byte	0x50
+	.byte	0x51
 	.byte	0x1
 	.long	0x58
 	.quad	.LFB0
@@ -263,8 +263,6 @@ main:
 	.string	"unsigned int"
 .LASF2:
 	.string	"long unsigned int"
-.LASF10:
-	.string	"zeno_main"
 .LASF6:
 	.string	"signed char"
 .LASF5:
@@ -273,6 +271,8 @@ main:
 	.string	"short int"
 .LASF11:
 	.string	"bases_main"
+.LASF10:
+	.string	"do_wie_main"
 .LASF4:
 	.string	"unsigned char"
 .LASF8:

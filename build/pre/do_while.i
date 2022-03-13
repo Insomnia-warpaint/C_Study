@@ -1,16 +1,16 @@
-# 0 "src/zeno.c"
+# 0 "src/do_while.c"
 # 1 "/home/insomnia/eclipse-workspace/c-basic//"
 # 0 "<built-in>"
 # 0 "<command-line>"
 # 1 "/usr/include/stdc-predef.h" 1 3 4
 # 0 "<command-line>" 2
-# 1 "src/zeno.c"
-# 10 "src/zeno.c"
-# 1 "src/../include/zeno.h" 1
-# 16 "src/../include/zeno.h"
+# 1 "src/do_while.c"
+# 10 "src/do_while.c"
+# 1 "src/../include/do_while.h" 1
+# 16 "src/../include/do_while.h"
 int
-zeno_main(void);
-# 11 "src/zeno.c" 2
+do_wie_main(void);
+# 11 "src/do_while.c" 2
 # 1 "/usr/include/stdio.h" 1 3 4
 # 27 "/usr/include/stdio.h" 3 4
 # 1 "/usr/include/bits/libc-header-start.h" 1 3 4
@@ -545,32 +545,31 @@ extern int __uflow (FILE *);
 extern int __overflow (FILE *, int);
 # 902 "/usr/include/stdio.h" 3 4
 
-# 12 "src/zeno.c" 2
+# 12 "src/do_while.c" 2
 # 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include/stdbool.h" 1 3 4
-# 13 "src/zeno.c" 2
+# 13 "src/do_while.c" 2
 
 
-# 14 "src/zeno.c"
+
+# 15 "src/do_while.c"
 int
-zeno_main(void)
+do_wie_main(void)
 {
 
-    int t_ct;
-    double time, power_of_2;
-    int limit;
+    const int secret_code = 13;
+    int code_entered;
 
-    printf("Enter the number of terms you want: ");
-    scanf("%d", &limit);
-    for (time = 0, power_of_2 = 1, t_ct = 1; t_ct <= limit; t_ct++, power_of_2 *= 2.0)
+    do
     {
+        printf("To enter the triskaidekaphobia therapy club.\n");
+        printf("please enter the secret code number: ");
+        scanf("%d", &code_entered);
+    }while (code_entered != secret_code);
+    printf("Congratulations! You are cured!\n");
 
-        time += 1.0 / power_of_2;
-        printf("time = %f when terms = %d.\n", time, t_ct);
-    }
     return 
-# 30 "src/zeno.c" 3 4
+# 30 "src/do_while.c" 3 4
           1
-# 30 "src/zeno.c"
+# 30 "src/do_while.c"
               ;
-
 }
