@@ -1,419 +1,16 @@
-# 0 "src/basic.c"
+# 0 "src/zeno.c"
 # 1 "/home/insomnia/eclipse-workspace/c-basic//"
 # 0 "<built-in>"
 # 0 "<command-line>"
 # 1 "/usr/include/stdc-predef.h" 1 3 4
 # 0 "<command-line>" 2
-# 1 "src/basic.c"
-
-
-
-
-
-
-
+# 1 "src/zeno.c"
+# 10 "src/zeno.c"
 # 1 "src/../include/zeno.h" 1
 # 16 "src/../include/zeno.h"
 int
 zeno_main(void);
-# 9 "src/basic.c" 2
-# 1 "src/../include/postage.h" 1
-# 15 "src/../include/postage.h"
-int
-postage_main(void);
-# 10 "src/basic.c" 2
-# 1 "src/../include/for_char.h" 1
-# 14 "src/../include/for_char.h"
-int
-fchar_main(void);
-# 11 "src/basic.c" 2
-# 1 "src/../include/for_13s.h" 1
-# 14 "src/../include/for_13s.h"
-int
-f13s_main(void);
-# 12 "src/basic.c" 2
-# 1 "src/../include/for_down.h" 1
-# 14 "src/../include/for_down.h"
-int
-fdown_main(void);
-# 13 "src/basic.c" 2
-# 1 "src/../include/for_cube.h" 1
-# 14 "src/../include/for_cube.h"
-int
-cube_main(void);
-# 14 "src/basic.c" 2
-# 1 "src/../include/sweetie2.h" 1
-# 15 "src/../include/sweetie2.h"
-int
-sweetie2_main(void);
-# 15 "src/basic.c" 2
-# 1 "src/../include/sweetie1.h" 1
-# 14 "src/../include/sweetie1.h"
-int
-sweetie1_main(void);
-# 16 "src/basic.c" 2
-# 1 "src/../include/boolean.h" 1
-# 13 "src/../include/boolean.h"
-int
-boolean_main(void);
-# 17 "src/basic.c" 2
-# 1 "src/../include/trunth.h" 1
-
-
-
-
-int
-trunth_main(void);
-# 18 "src/basic.c" 2
-# 1 "src/../include/t_and_f.h" 1
-
-
-
-
-int t_f_main(void);
-# 19 "src/basic.c" 2
-# 1 "src/../include/cmpflt.h" 1
-
-
-
-
-int cmpflt_main(void);
-# 20 "src/basic.c" 2
-# 1 "src/../include/when.h" 1
-
-
-
-
-
-
-int when_main(void);
-# 21 "src/basic.c" 2
-# 1 "src/../include/summing.h" 1
-# 11 "src/../include/summing.h"
-int
-summing_main(void);
-# 22 "src/basic.c" 2
-# 1 "src/../include/convert_temperature.h" 1
-# 11 "src/../include/convert_temperature.h"
-int
-convert_temperature_main(void);
-# 23 "src/basic.c" 2
-# 1 "src/../include/convert_day.h" 1
-# 11 "src/../include/convert_day.h"
-int
-convert_day_main(void);
-# 24 "src/basic.c" 2
-# 1 "src/../include/greater_ten.h" 1
-# 12 "src/../include/greater_ten.h"
-int
-greater_ten_main(void);
-# 25 "src/basic.c" 2
-# 1 "src/../include/convert_time.h" 1
-# 11 "src/../include/convert_time.h"
-int
-convert_time_main (void);
-# 26 "src/basic.c" 2
-# 1 "src/../include/running.h" 1
-# 11 "src/../include/running.h"
-int
-running_main(void);
-# 27 "src/basic.c" 2
-# 1 "src/../include/pound.h" 1
-
-
-
-
-int
-pound_main(void);
-# 28 "src/basic.c" 2
-# 1 "src/../include/sizeof.h" 1
-# 11 "src/../include/sizeof.h"
-int
-sizeof_main (void);
-# 29 "src/basic.c" 2
-# 1 "src/../include/rules.h" 1
-# 11 "src/../include/rules.h"
-int
-rules_main (void);
-# 30 "src/basic.c" 2
-# 1 "src/../include/divide.h" 1
-# 11 "src/../include/divide.h"
-int
-divide_main (void);
-# 31 "src/basic.c" 2
-# 1 "src/../include/golf.h" 1
-# 11 "src/../include/golf.h"
-int
-golf_main (void);
-# 32 "src/basic.c" 2
-# 1 "src/../include/wheat.h" 1
-# 11 "src/../include/wheat.h"
-int
-wheat_main (void);
-# 33 "src/basic.c" 2
-# 1 "src/../include/squares.h" 1
-# 11 "src/../include/squares.h"
-int
-squares_main (void);
-# 34 "src/basic.c" 2
-# 1 "src/../include/shoes.h" 1
-# 11 "src/../include/shoes.h"
-int
-shoes_main (void);
-# 35 "src/basic.c" 2
-# 1 "src/../include/calculate_distance.h" 1
-# 11 "src/../include/calculate_distance.h"
-int
-calculate_distance_main (void);
-# 36 "src/basic.c" 2
-# 1 "src/../include/doub_flot_diff.h" 1
-# 11 "src/../include/doub_flot_diff.h"
-int
-doub_flot_dif_main (void);
-# 37 "src/basic.c" 2
-# 1 "src/../include/calculate_strlen.h" 1
-# 11 "src/../include/calculate_strlen.h"
-int
-calculate_strlen_main (void);
-# 38 "src/basic.c" 2
-# 1 "src/../include/print_dspeed.h" 1
-# 11 "src/../include/print_dspeed.h"
-int
-dspeed_main (void);
-# 39 "src/basic.c" 2
-# 1 "src/../include/entry_info.h" 1
-# 11 "src/../include/entry_info.h"
-int
-entry_info_main (void);
-# 40 "src/basic.c" 2
-# 1 "src/../include/input_float.h" 1
-# 11 "src/../include/input_float.h"
-int
-input_float_main (void);
-# 41 "src/basic.c" 2
-# 1 "src/../include/print_name.h" 1
-# 11 "src/../include/print_name.h"
-int
-print_name_main (void);
-
-int
-print_name_align (void);
-# 42 "src/basic.c" 2
-# 1 "src/../include/longstrg.h" 1
-# 11 "src/../include/longstrg.h"
-int
-longstrg_main (void);
-# 43 "src/basic.c" 2
-# 1 "src/../include/prntval.h" 1
-# 11 "src/../include/prntval.h"
-int
-prntval_main (void);
-# 44 "src/basic.c" 2
-# 1 "src/../include/floatcnv.h" 1
-# 11 "src/../include/floatcnv.h"
-int
-floatcnv_main (void);
-# 45 "src/basic.c" 2
-# 1 "src/../include/intconv.h" 1
-# 11 "src/../include/intconv.h"
-int
-intconv_main (void);
-# 46 "src/basic.c" 2
-# 1 "src/../include/stringf.h" 1
-# 11 "src/../include/stringf.h"
-int
-stringf_main (void);
-# 47 "src/basic.c" 2
-# 1 "src/../include/flags.h" 1
-# 11 "src/../include/flags.h"
-int
-flags_main (void);
-# 48 "src/basic.c" 2
-# 1 "src/../include/floats.h" 1
-# 11 "src/../include/floats.h"
-int
-floats_main (void);
-# 49 "src/basic.c" 2
-# 1 "src/../include/width.h" 1
-# 11 "src/../include/width.h"
-int
-width_main (void);
-# 50 "src/basic.c" 2
-# 1 "src/../include/printout.h" 1
-# 11 "src/../include/printout.h"
-int
-printout_main (void);
-# 51 "src/basic.c" 2
-# 1 "src/../include/defines.h" 1
-# 11 "src/../include/defines.h"
-int
-defines_main (void);
-# 52 "src/basic.c" 2
-# 1 "src/../include/pizza.h" 1
-# 11 "src/../include/pizza.h"
-int
-pizza_main (void);
-# 53 "src/basic.c" 2
-# 1 "src/../include/praise.h" 1
-# 11 "src/../include/praise.h"
-int
-priase_main (void);
-
-int
-praises_main (void);
-# 54 "src/basic.c" 2
-# 1 "src/../include/talkback.h" 1
-# 11 "src/../include/talkback.h"
-int
-talkback_main (void);
-# 55 "src/basic.c" 2
-# 1 "src/../include/conv_inch_to_centimeter.h" 1
-# 11 "src/../include/conv_inch_to_centimeter.h"
-int
-conv_inch_to_cm (void);
-# 56 "src/basic.c" 2
-# 1 "src/../include/conv_quart_to_molecule.h" 1
-# 10 "src/../include/conv_quart_to_molecule.h"
-int
-conv_quart_to_mlc (void);
-# 57 "src/basic.c" 2
-# 1 "src/../include/conv_age_to_sec.h" 1
-# 11 "src/../include/conv_age_to_sec.h"
-int
-conv_age_main (void);
-# 58 "src/basic.c" 2
-# 1 "src/../include/print_flt.h" 1
-# 11 "src/../include/print_flt.h"
-int
-print_flt_main (void);
-# 59 "src/basic.c" 2
-# 1 "src/../include/print_ch.h" 1
-# 11 "src/../include/print_ch.h"
-int
-print_ch_main (void);
-# 60 "src/basic.c" 2
-# 1 "src/../include/escape.h" 1
-# 11 "src/../include/escape.h"
-int
-escape_main (void);
-# 61 "src/basic.c" 2
-# 1 "src/../include/floaterr.h" 1
-# 11 "src/../include/floaterr.h"
-int
-floaterr_main (void);
-# 62 "src/basic.c" 2
-# 1 "src/../include/showf_pt.h" 1
-# 11 "src/../include/showf_pt.h"
-int
-showf_pt_main (void);
-# 63 "src/basic.c" 2
-# 1 "src/../include/altnames.h" 1
-# 11 "src/../include/altnames.h"
-int
-altnames_main (void);
-# 64 "src/basic.c" 2
-# 1 "src/../include/charcode.h" 1
-# 11 "src/../include/charcode.h"
-int
-charcode_main (void);
-# 65 "src/basic.c" 2
-# 1 "src/../include/print_unsigned.h" 1
-# 12 "src/../include/print_unsigned.h"
-int
-print_unsigned_main (void);
-# 66 "src/basic.c" 2
-# 1 "src/../include/toobig.h" 1
-# 11 "src/../include/toobig.h"
-int
-toobig_main (void);
-# 67 "src/basic.c" 2
-# 1 "src/../include/bases.h" 1
-# 11 "src/../include/bases.h"
-int
-bases_main (void);
-# 68 "src/basic.c" 2
-# 1 "src/../include/platinum.h" 1
-# 11 "src/../include/platinum.h"
-int
-platinum_main (void);
-# 69 "src/basic.c" 2
-# 1 "src/../include/sorted.h" 1
-# 11 "src/../include/sorted.h"
-int
-sorted_main (void);
-# 70 "src/basic.c" 2
-# 1 "src/../include/parctice_printf.h" 1
-# 10 "src/../include/parctice_printf.h"
-int
-parctice_printf_main (void);
-
-void
-print_en_name (void);
-
-void
-convert_age_to_day (void);
-
-void
-self_introducation (void);
-
-void
-jolly (void);
-
-void
-deny (void);
-
-void
-br (void);
-
-void
-ic (void);
-
-void
-smile (void);
-
-void
-func_invok_func (void);
-
-void
-one_three (void);
-
-void
-two (void);
-# 71 "src/basic.c" 2
-# 1 "src/../include/func.h" 1
-# 10 "src/../include/func.h"
-int
-func_main (void);
-
-
-void
-butler (void);
-# 72 "src/basic.c" 2
-# 1 "src/../include/logic_err.h" 1
-# 11 "src/../include/logic_err.h"
-int
-logic_err_main (void);
-# 73 "src/basic.c" 2
-# 1 "src/../include/fathm_ft.h" 1
-# 11 "src/../include/fathm_ft.h"
-int
-fathm_ft_main (void);
-# 74 "src/basic.c" 2
-# 1 "src/../include/hello.h" 1
-# 11 "src/../include/hello.h"
-int
-hello_main (void);
-# 75 "src/basic.c" 2
-# 1 "src/../include/pnt_space.h" 1
-# 10 "src/../include/pnt_space.h"
-int
-pnt_space (void);
-
-int
-pnt_spaces (int number);
-# 76 "src/basic.c" 2
-# 1 "src/../include/bool.h" 1
-# 77 "src/basic.c" 2
+# 11 "src/zeno.c" 2
 # 1 "/usr/include/stdio.h" 1 3 4
 # 27 "/usr/include/stdio.h" 3 4
 # 1 "/usr/include/bits/libc-header-start.h" 1 3 4
@@ -948,18 +545,32 @@ extern int __uflow (FILE *);
 extern int __overflow (FILE *, int);
 # 902 "/usr/include/stdio.h" 3 4
 
-# 78 "src/basic.c" 2
+# 12 "src/zeno.c" 2
+# 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include/stdbool.h" 1 3 4
+# 13 "src/zeno.c" 2
 
 
-# 79 "src/basic.c"
+# 14 "src/zeno.c"
 int
-main (void)
+zeno_main(void)
 {
-# 105 "src/basic.c"
-  bases_main ();
-  pnt_spaces (2);
-# 297 "src/basic.c"
-  zeno_main();
-  pnt_spaces(2);
-  return 0;
+
+    int t_ct;
+    double time, power_of_2;
+    int limit;
+
+    printf("Enter the umber of terms you want: ");
+    scanf("%d", &limit);
+    for (time = 0, power_of_2 = 1, t_ct = 1; t_ct <= limit; t_ct++, power_of_2 *= 2.0)
+    {
+
+        time += 1.0 / power_of_2;
+        printf("time = %f when terms = %d.\n", time, t_ct);
+    }
+    return 
+# 30 "src/zeno.c" 3 4
+          1
+# 30 "src/zeno.c"
+              ;
+
 }

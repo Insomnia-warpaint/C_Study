@@ -5,6 +5,8 @@
  *      Author: miga
  */
 
+#include "../include/zeno.h"
+#include "../include/postage.h"
 #include "../include/for_char.h"
 #include "../include/for_13s.h"
 #include "../include/for_down.h"
@@ -277,16 +279,22 @@ main (void)
 //  sweetie2_main ();
 //  pnt_spaces (TWO);
 	
-   cube_main();
-   pnt_spaces (TWO);
+// cube_main();
+// pnt_spaces (TWO);
 
-   fdown_main();
-   pnt_spaces(TWO);
+// fdown_main();
+// pnt_spaces(TWO);
 
-   f13s_main();
-   pnt_spaces(TWO);
+// f13s_main();
+// pnt_spaces(TWO);
    
-   fchar_main();
-   pnt_spaces(TWO);
+// fchar_main();
+// pnt_spaces(TWO);
+
+// postage_main();
+// pnt_spaces(TWO);
+
+  zeno_main();
+  pnt_spaces(TWO);
   return true;
 }
