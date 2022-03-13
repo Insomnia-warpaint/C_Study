@@ -5,6 +5,12 @@
  *      Author: miga
  */
 
+#include "../include/outa-z.h"
+#include "../include/power.h"
+#include "../include/row2.h"
+#include "../include/scores.h"
+#include "../include/entry.h"
+#include "../include/row1.h"
 #include "../include/do_while.h"
 #include "../include/zeno.h"
 #include "../include/postage.h"
@@ -234,7 +240,6 @@ main (void)
 
 //  rules_main ();
 //  pnt_spaces (TWO);
-
 //  sizeof_main ();
 //  pnt_spaces (TWO);
 
@@ -279,7 +284,7 @@ main (void)
 
 //  sweetie2_main ();
 //  pnt_spaces (TWO);
-	
+
 // cube_main();
 // pnt_spaces (TWO);
 
@@ -288,7 +293,7 @@ main (void)
 
 // f13s_main();
 // pnt_spaces(TWO);
-   
+
 // fchar_main();
 // pnt_spaces(TWO);
 
@@ -298,8 +303,25 @@ main (void)
 // zeno_main();
 // pnt_spaces(TWO);
 
-   do_wie_main();
-   pnt_spaces(TWO);
+// do_wie_main();
+// pnt_spaces(TWO);
 
+// entry_while();
+// pnt_spaces(TWO);
+
+// rows1_main();
+// pnt_spaces(TWO);
+
+// row2_main();
+// pnt_spaces(TWO);
+
+// scores_main();
+// pnt_spaces(TWO);
+
+//  power_main ();
+//  pnt_spaces (TWO);
+
+  outABC ();
+  pnt_spaces (TWO);
   return true;
 }
