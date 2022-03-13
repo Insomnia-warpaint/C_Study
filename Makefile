@@ -24,7 +24,7 @@ PRE = $(SRC:$(SRCDIR)/%$(EXT)=$(PREDIR)/%$(PREEXT))
 ASM = $(SRC:$(SRCDIR)/%$(EXT)=$(ASMDIR)/%$(ASMEXT))
 OBJ = $(SRC:$(SRCDIR)/%$(EXT)=$(OBJDIR)/%$(OBJEXT))
 
-.PRECIOUS: $(PRE) $(ASM) $(OBJ)
+#.PRECIOUS: $(PRE) $(ASM) $(OBJ)
 .PHONY: all run clean
 
 all: $(APPNAME)
