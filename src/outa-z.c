@@ -57,9 +57,9 @@ outABC (void)
    pcharr (chap);
    //free (*chap);*/
   char (*chap)[] = &ch; //malloc (26 * sizeof(char));
-  // my_strlen (*chap);
+  //my_strlen (*chap);
   printf ("%ld", strlen (*chap));
-  for (int i = 0; i < 26; i++)
+  for (int i = 0; i < 30; i++)
     {
       printf ("%c\n", ch[i]);
     }
@@ -75,6 +75,12 @@ my_strlen (char *s)
 
   for (;;)
     {
+      if (*s != '\0')
+	{
+	  *s++;
+	  len += 1;
+	  continue;
+	}
       *s++;
       len += 1;
     }

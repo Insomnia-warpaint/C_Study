@@ -5,6 +5,7 @@
  *      Author: miga
  */
 
+#include "../include/for_loop.h"
 #include "../include/outa-z.h"
 #include "../include/power.h"
 #include "../include/row2.h"
@@ -109,8 +110,8 @@ main (void)
 //  platinum_main ();
 //  pnt_spaces (TWO);
 
-  bases_main ();
-  pnt_spaces (TWO);
+//  bases_main ();
+//  pnt_spaces (TWO);
 
 //  toobig_main ();
 //  pnt_spaces (TWO);
@@ -321,7 +322,10 @@ main (void)
 //  power_main ();
 //  pnt_spaces (TWO);
 
-  outABC ();
-  pnt_spaces (TWO);
+// outABC ();
+// pnt_spaces (TWO);
+
+  loop_main ();
+
   return true;
 }
