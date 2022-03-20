@@ -5,6 +5,9 @@
  *      Author: miga
  */
 
+#include "../include/electric.h"
+#include "../include/cypher1.h"
+#include "../include/colddays.h"
 #include "../include/for_loop.h"
 #include "../include/outa-z.h"
 #include "../include/power.h"
@@ -325,7 +328,12 @@ main (void)
 // outABC ();
 // pnt_spaces (TWO);
 
-  loop_main ();
+//  loop_main ();
+  
+//  colddays_main();
 
+//  cypher1_main();
+ 
+  electric_main();
   return true;
 }

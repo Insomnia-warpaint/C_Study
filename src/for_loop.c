@@ -67,7 +67,6 @@ loop_main (void)
 
 	      if (l != 1)
 		printf ("%c", --letter);
-
 	    }
 
 	  l++;
