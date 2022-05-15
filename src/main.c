@@ -11,6 +11,21 @@
 #include <strings.h>
 #include <string.h>
 
+
+
+void safe_free( void **pp)
+{
+
+    if(pp == NULL && *pp == NULL)
+    {
+        return;
+    }
+    
+    free(*pp);
+    pp = NULL; 
+}
+
+#define safe_free(p) safe_free((void**)&(p))
 /*
  * 
  */
@@ -268,6 +283,28 @@ int main(int argc, char** argv) {
     memset(pi94, 0, 5 * sizeof (int));
     fprintf(stdout, "\npi94 of value: %d", *pi94);
     free(pi94);
-    return (EXIT_SUCCESS);
+    
+    fprintf(stdout, "\n###############################################################################################################################################");
+    char *string1;
+    char *string2;
+    char **pstring1;
+    char **pstring2;
+    pstring1 = (char**)malloc(sizeof(char*));
+    pstring2 = (char**)malloc(sizeof(char*));
+    string1 = (char*) malloc(16 * sizeof(char));
+    strcpy(string1,"123456789AB");
+    string2 = realloc(string1, 8);
+    pstring1 = &string1;
+    pstring2 = &string2;
+
+    fprintf(stdout,"\nstring1 value: %p, [%s]", string1, *pstring1);
+    fprintf(stdout,"\nstring2 value: %p, [%s]", string2, *pstring2);
+    fprintf(stdout,"\npstring1 value: %p, [%p]", pstring1, *pstring1);
+    fprintf(stdout,"\npstring2 value: %p, [%p]", pstring2, *pstring2);
+    free(string1); 
+    fprintf(stdout, "\n###############################################################################################################################################");
+   return (EXIT_SUCCESS);
+
 }
+
 
